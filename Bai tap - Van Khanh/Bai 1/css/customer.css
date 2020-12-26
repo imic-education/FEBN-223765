@@ -43,9 +43,9 @@
   width: 75px;
 }
 .tab_alert{
-	color: #31708f;
-    background-color: #d9edf7;
-    border-color: #bce8f1;
+	color: #31698f;
+    background-color:rgb(43, 255, 0);
+    border-color: #c4bcf1;
     padding: 15px;
     margin-bottom: 20px;
     border: 1px solid transparent;
