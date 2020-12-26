@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap Example</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css" />
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="bootstrap-4.5.3-dist/js/bootstrap.js"></script>
+
+    <style>
+      .carosel-inner img {
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Add Captions to Slides-->
+    <!--Make the image fully responsive SLICK!!-->
+
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="OIP.jpg" alt="dog" />
+          <div class="carousel-caption">
+            <h3>Dogggggggg</h3>
+            <p>I luv dogs!</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="OIP.jpg" alt="dog" />
+          <div class="carousel-caption">
+            <h3>2</h3>
+            <p>I luv dogs!</p>
+          </div>
+        </div>
+        <div class="carousel-item active">
+          <img src="OIP.jpg" alt="dog" />
+          <div class="carousel-caption">
+            <h3>3</h3>
+            <p>I luv dogs!</p>
+          </div>
+        </div>
+      </div>
+      <a href="#demo" class="carousel-control-prev" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a href="#demo" class="carousel-control-next" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <!--Popover to be displayed when you move-->
+    <div class="container">
+      <h3>Giới thiệu blah blah blah</h3>
+      <!--
+          # data-trigger="focus"
+          # data-trigger="hover" 
+        -->
+      <a
+        href="#"
+        data-toggle="popover"
+        data-trigger="focus"
+        title="Giới thiệu...."
+        data-content="dasdasfsffasfaffa"
+        >Giới thiệu blah blahdadadwdadwd</a
+      >
+    </div>
+    <!--phần dưới sai là không có hiệu ứng-->
+    <script>
+      $(document).ready(function () {
+        $('[data-toggle="popover"]').popover();
+      });
+    </script>
+
+    <!---->
+    <div class="container">
+      <h3>Toast Example</h3>
+      <p>
+        In this example, we use data-autohide="false" to show the toast by
+        default. You can close it by clicking on the close (x) icon inside the
+        toast header.
+      </p>
+      <button type="button" class="btn btn-primary" id="myBtn">
+        Hiện thông tin
+      </button>
+      <div class="toast" data-autohide="false">
+        <div class="toast-header">
+          <strong class="mr-auto text-primary">Giới thiệu nhân sự</strong>
+          <small class="text-muted">5 mins ago</small>
+          <button type="button" class="ml-2 mb-1 close" data-dismiss="toast">
+            &times;
+          </button>
+        </div>
+        <div class="toast-body">
+          Văn phòng Trung ương Đảng cho biết, trong ngày làm việc hôm nay, hội
+          nghị Trung ương 13 (khóa XII) dưới sự chủ trì của Tổng Bí thư, Chủ
+          tịch nước Nguyễn Phú Trọng đã nghe các tờ trình của Bộ Chính trị về
+          việc lấy ý kiến giới thiệu nhân sự Bộ trưởng Khoa học và Công nghệ, Bộ
+          trưởng Y tế; giới thiệu nhân sự Ban chấp hành Trung ương khoá XIII và
+          nhân sự Uỷ ban Kiểm tra Trung ương khoá XIII.
+        </div>
+      </div>
+    </div>
+
+    <script>
+      $(document).ready(function () {
+        $(".toast").toast("show");
+        $("#myBtn").click(function () {
+          $(".toast").toast("show");
+        });
+      });
+    </script>
+
+    <!--Make Media Object-->
+    <div class="container mt-3">
+      <h2>Media Object</h2>
+      <div>Create a media object with the .media and .media-body classes:</div>
+      <div class="media border p-3">
+        <img
+          src="OIP.jpg"
+          alt="John Doe"
+          class="mr-3 mt-3 rounded-circle"
+          style="width: 60px"
+        />
+        <div class="media-body">
+          <h4>
+            John Doe <small><i>Posted on February 19, 2016</i></small>
+          </h4>
+          <div>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <div class="media border p-3">
+            <img
+              src="OIP.jpg"
+              alt="John Doe"
+              class="mr-3 mt-3 rounded-circle"
+              style="width: 60px"
+            />
+            <div class="media-body">
+              <h4>
+                John Doe <small><i>Posted on February 19, 2016</i></small>
+              </h4>
+              <div>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!--Create form-->
+    <div class="container">
+      <h2>Stacked form</h2>
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            class="form-control"
+            id="email"
+            placeholder="Enter email"
+            name="email"
+          />
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input
+            type="password"
+            class="form-control"
+            id="pwd"
+            placeholder="Enter password"
+            name="pswd"
+          />
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input classs="form-check-input" type="checkbox" name="remember" />
+            Remember me
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+
+    <!--Create table-->
+    <div class="container">
+      <h2>Striped rows</h2>
+      <p>The .table-striped class adds zebra-striped to a table:</p>
+      <div class="table-responsive">
+        <table class="table table-striped table-hover">
+          <thead>
+            <th></th>
+            <th>Rollnumber</th>
+            <th>Fullname</th>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th></th>
+          </thead>
+          <tbody>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>1</td>
+              <td>A Nguyen</td>
+              <td>A</td>
+              <td>Nguyen</td>
+              <td>dawdawdad@gmail.com</td>
+              <td>13565465465464</td>
+              <td><button type="submit">Submit</button></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>1</td>
+              <td>A Nguyen</td>
+              <td>A</td>
+              <td>Nguyen</td>
+              <td>dawdawdad@gmail.com</td>
+              <td>13565465465464</td>
+              <td><button type="submit">Submit</button></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>1</td>
+              <td>A Nguyen</td>
+              <td>A</td>
+              <td>Nguyen</td>
+              <td>dawdawdad@gmail.com</td>
+              <td>13565465465464</td>
+              <td><button type="submit">Submit</button></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>1</td>
+              <td>A Nguyen</td>
+              <td>A</td>
+              <td>Nguyen</td>
+              <td>dawdawdad@gmail.com</td>
+              <td>13565465465464</td>
+              <td><button type="submit">Submit</button></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>1</td>
+              <td>A Nguyen</td>
+              <td>A</td>
+              <td>Nguyen</td>
+              <td>dawdawdad@gmail.com</td>
+              <td>13565465465464</td>
+              <td><button type="submit">Submit</button></td>
+            </tr>
+            <tr>
+              <td><input type="checkbox" /></td>
+              <td>1</td>
+              <td>A Nguyen</td>
+              <td>A</td>
+              <td>Nguyen</td>
+              <td>dawdawdad@gmail.com</td>
+              <td>13565465465464</td>
+              <td><button type="submit">Submit</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!--Create page with image-->
+    <div class="container">
+      <h2>Image</h2>
+      <p>
+        The .img-fluid class makes the image scale nicely to the parent element:
+      </p>
+      <div class="row">
+        <img class="img-fluid" src="cat.jpeg" alt="cat" />
+      </div>
+    </div>
+
+    <!--Create thumbnail-->
+    <div class="container">
+      <h2>Thumbnail</h2>
+      <p>The .img-thumbnail class create the thumbnail of the image:</p>
+      <div class="row">
+        <div class="col-sm-3">
+          <!--tao 4 hinh trong 1 dong-->
+          <img class="img-thumbnail" src="cat.jpeg" alt="cat" />
+        </div>
+        <div class="col-sm-3">
+          <img class="img-thumbnail" src="cat.jpeg" alt="cat" />
+        </div>
+        <div class="col-sm-3">
+          <img class="img-thumbnail" src="cat.jpeg" alt="cat" />
+        </div>
+        <div class="col-sm-3">
+          <img class="img-thumbnail" src="cat.jpeg" alt="cat" />
+        </div>
+      </div>
+    </div>
+
+    <!--Create-->
+    <div class="container">
+      <h2>????</h2>
+      <p>The .img-thumbnail class create the thumbnail of the image:</p>
+      <ul class="pagination">
+        <li class="page-item"><a href="#" class="page-item">Previous</a></li>
+        <li class="page-item active"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-item">2</a></li>
+        <li class="page-item"><a href="#" class="page-item">3</a></li>
+        <li class="page-item"><a href="#" class="page-item">Next</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
