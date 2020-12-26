@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
+</head>
+
+<body>
+	<div class="container">
+    	<div class="col-lg-12 main">
+        	<header class="main-header">
+               <a href="#" target="_blank" class="logo"><b style="font-family: cursive;">iMicroSoft</b></a>
+               <!-- Header Navbar: style can be found in header.less -->
+               <nav class="navbar navbar-static-top" role="navigation">
+                  <!-- Sidebar toggle button-->
+                  <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  </a>
+                  <div class="navbar-custom-menu">
+                     <ul class="nav navbar-nav">
+                        <!-- Tasks: style can be home -->
+                        <li class="dropdown tasks-menu">
+                           <a href="#" class="dropdown-toggle" title="Trang chủ" data-toggle="dropdown">
+                           <i class="fa fa-home"></i>
+                           </a>
+                        </li>
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="dropdown user user-menu">
+                           <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                           <img src="images/7-cd923.jpg" class="user-image" alt="">
+                           <span class="hidden-xs">Xin chào : admin</span>
+                           </a>
+                           <ul class="dropdown-menu">
+                              <!-- User image -->
+                              <li class="user-header">
+                                 <img src="images/7-cd923.jpg" class="user-image" alt="">
+                                 <p>
+                                    Son Pham Thanh - Quản trị viên                      <small>iMicrosoft - khởi nguồn thành công</small>
+                                 </p>
+                              </li>
+                              <!-- Menu Footer-->
+                              <li class="user-footer">
+                                 <div class="pull-left">
+                                    <a href="#" class="btn btn-default btn-flat">Thông tin</a>
+                                 </div>
+                                 <div class="pull-right">
+                                    <form action="" id="logoutForm" method="post">
+                                    <input name="" type="hidden" value="" class="btn btn-default btn-flat">Đăng xuất</a></form>
+                                 </div>
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                  </div>
+               </nav>
+            </header>
+			<div class="content-wrapper" style="min-height: 280px;">
+               <section class="content-header">
+                  <h1>
+                     <span style="text-transform: uppercase;">Thêm mới người dùng</span>
+                     <small>Preview</small>
+                  </h1>
+                  <ol class="breadcrumb">
+                     <li><a href="#"><i class="fa fa-dashboard"></i> Bảng điều khiển</a></li>
+                     <li class="active">Thêm mới người dùng</li>
+                  </ol>
+               </section>
+               <!-- Main content -->
+               <section class="content">
+                  <div class="row">
+                     <form action="" method="post">
+                        <!-- right column -->
+                        <div class="col-md-12">
+                           <!-- general form elements disabled -->
+                           <div class="box box-warning">
+                              <div class="box-body">
+                                 <!-- text input -->
+                                 <div class="form-group">
+                                    <label><label for="Fullname">Tên người dùng</label></label>
+                                    <input class="form-control" data-val="true" data-val-required="Vui lòng nhập tên của bạn" id="Fullname" name="Fullname" placeholder="Nhập tên người dùng..." type="text" value="">
+                                    <span class="field-validation-valid" data-valmsg-for="Fullname" data-valmsg-replace="true"></span>
+                                 </div>
+                                 <!-- text input -->
+                                 <div class="form-group">
+                                    <label><label for="Username">Tài khoản</label></label>
+                                    <input class="form-control" data-val="true" data-val-required="Vui lòng nhập tài khoản của bạn" id="user" name="Username" placeholder="Nhập tên tài khoản..." type="text" value="">
+                                    <span class="field-validation-valid" data-valmsg-for="Username" data-valmsg-replace="true"></span>
+                                    <em id="result"></em>
+                                 </div>
+                                 <!-- text input -->
+                                 <div class="form-group">
+                                    <label><label for="Password">Mật khẩu</label></label>
+                                    <input class="form-control password" data-val="true" data-val-required="Vui lòng nhập mật khẩu" id="Password" name="Password" placeholder="Nhập mật khẩu" type="password">
+                                    <span class="field-validation-valid" data-valmsg-for="Password" data-valmsg-replace="true"></span>
+                                 </div>
+                                 <!-- text input -->
+                                 <div class="form-group">
+                                    <label><label for="RewitenPassword">Nhập lại mật khẩu</label></label>
+                                    <input class="form-control changepass" id="RewitenPassword" name="RewitenPassword" placeholder="Nhập lại mật khẩu" type="password">
+                                    <em class="checkpass"></em>
+                                 </div>
+                                 <!-- text input -->
+                                 <div class="form-group">
+                                    <label><label for="Avatar">Ảnh đại diện</label></label>
+                                    <input data-val="true" data-val-required="Vui lòng chọn ảnh đại diện" id="Avatar" name="Avatar" type="file" value="">
+                                    <span class="field-validation-valid" data-valmsg-for="Avatar" data-valmsg-replace="true"></span>
+                                 </div>
+                                 <!-- text input -->
+                                 <div class="form-group">
+                                    <label><label for="Email">Email</label></label>
+                                    <input class="form-control" data-val="true" data-val-required="Vui lòng nhập email của bạn" id="catename" name="Email" placeholder="Enter..." type="text" value="">
+                                    <span class="field-validation-valid" data-valmsg-for="Email" data-valmsg-replace="true"></span>
+                                 </div>
+                                 <!-- text input -->
+                                 <div class="form-group">
+                                    <label><label for="Phone">Số điện thoại</label></label>
+                                    <input class="form-control" data-val="true" data-val-required="Vui lòng nhập số điện thoại" id="RewritenUrl" name="Phone" placeholder="Enter..." type="text" value="">
+                                    <span class="field-validation-valid" data-valmsg-for="Phone" data-valmsg-replace="true"></span>
+                                 </div>
+                                 <!-- text input -->
+                                 <div class="form-group">
+                                    <label><label for="Address">Địa chỉ</label></label>
+                                    <textarea class="form-control" cols="20" id="Address" name="Address" placeholder="Enter..." rows="2" type="text"></textarea>
+                                 </div>
+                                 <!-- text input -->
+                                 <div class="form-group">
+                                    <label><label for="IsActive">Kích hoạt</label></label>
+                                    <input class="iCheck-helper" data-val="true" data-val-required="The Kích hoạt field is required." id="IsActive" name="IsActive" type="checkbox" value="true"><input name="IsActive" type="hidden" value="false">
+                                    <em>(Chọn nếu muốn tài khoản hoạt động)</em>  
+                                 </div>
+                                 <!-- text input -->
+                                 <div class="form-group">
+                                    <label><label for="Permission">Phân quyền</label></label>
+                                    <select class="form-control" data-val="true" data-val-number="The field Phân quyền must be a number." data-val-required="The Phân quyền field is required." id="Permission" name="Permission">
+                                       <option value="1">Biên tập viên</option>
+                                       <option value="0">Quản trị viên</option>
+                                    </select>
+                                    <em>(Chọn nhóm quyền cho người dùng (nếu không chọn mặc định sẽ là biên tập viên))</em>  
+                                 </div>
+                                 <input type="submit" class="btn btn-info btn-flat" value="Tạo mới">
+                                 <a href="#" class="btn btn-default btn-flat">Quay lại quản lý người dùng</a>
+                              </div>
+                              <!-- /.box-body -->
+                           </div>
+                           <!-- /.box -->
+                        </div>
+                     </form>
+                  </div>
+               </section>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

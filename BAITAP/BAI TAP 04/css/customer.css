@@ -1,0 +1,155 @@
+.login-block {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+.login-block .login-ext {
+  overflow: hidden;
+  line-height: 30px;
+  padding: 10px 0;
+}
+.login-block:before {
+  border-color: rgba(194, 225, 245, 0);
+  border-bottom-color: #d9d9d9;
+  border-width: 10px;
+  margin-left: -10px;
+}
+.login-ext strong {
+  display: inline-block;
+  white-space: nowrap;
+}
+b, strong {
+  font-weight: bold;
+}
+a.abc.login-fb {
+  background-position: -249px -841px;
+}
+a.abc {
+  margin: 0 5px;
+  display: inline-block;
+  background: url(../images/ic-home.png) 0 0 no-repeat;
+  width: 29px;
+  height: 30px;
+}
+a.abc.login-go {
+  background-position: -280px -841px;
+}
+form {
+  margin: 0;
+}
+.login-block .login-form {
+  padding: 10px 0;
+}
+.login-block .login-form label {
+  display: block;
+  position: relative;
+  line-height: 34px;
+}
+label {
+  cursor: pointer;
+}
+.login-block .login-form label.lb-pass:before, .login-block .login-form label.lb-username:before {
+  content: '';
+  background: url(../images/ic-home.png) no-repeat -262px -155px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+}
+.login-block .login-form label input {
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  padding-left: 25px;
+}
+button, input {
+  line-height: normal;
+  zoom: 1;
+}
+.login-block .login-form label.lb-pass {
+  margin-top: 10px;
+}
+.login-block .login-form label.lb-pass:before {
+  background-position: -290px -155px;
+}
+.login-block .login-form label.lb-qmk {
+  text-align: right;
+  line-height: 24px;
+}
+body {
+  margin: 0 auto;
+  min-height: 100%;
+  line-height: 1;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+.login-block .login-form label a {
+  color: #e5101d;
+  font-weight:200;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  border: 0;
+  cursor: pointer;
+}
+.login_error {
+  color: #e5101d;
+  font-size: 11px;
+  font-style: italic;
+  line-height: 20px;
+}
+.login-block form > button {
+  background: #e5101d;
+  border-radius: 2px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 34px;
+  border: solid #e5101d 1px;
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.login-block .a-signup {
+  padding: 10px 0;
+  line-height: 20px;
+}
+.login-block:after {
+  border-color: rgba(136, 183, 213, 0);
+  border-bottom-color: #fff;
+  border-width: 8px;
+  margin-left: -8px;
+}
+.login-block:after, .login-block:before {
+  bottom: 100%;
+  left: 86%;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.login-block .a-signup a {
+  color: #e5101d;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.form-control{
+	font-size:12px;
+	font-weight:normal;
+}
+.frm{
+	margin:125px auto;
+	max-width:320px;
+	float:none;
+}
+
+

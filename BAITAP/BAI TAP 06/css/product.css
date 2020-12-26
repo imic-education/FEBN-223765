@@ -1,0 +1,239 @@
+/* CSS Document */
+.products-listing {
+  clear: both;
+}
+.box_product {
+  float: left;
+  width: 20%;
+  margin-bottom:10px;
+  margin-top: 10px;
+}
+.box_product .content_item {
+  height: 311px;
+  position: relative;
+  margin: 0 auto;
+}
+.box_product .content_item .overflow_box {
+  position: relative;
+  width: 212px;
+  min-height: 311px;
+  border: 1px #ddd solid;
+  background: #FFF;
+  padding: 3px;
+  border-radius: 2px;
+  transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+}
+.content_item .overflow_box a.img_product {
+  display: block;
+  text-align: center;
+  height: 200px;
+  vertical-align: middle;
+  position: relative;
+  background: url(../images/loading20x20.gif) center center no-repeat;
+}
+.content_item .overflow_box a.img_product img {
+  background-color: #fff;
+}
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+img {
+  border: 0;
+  max-width: 100%;
+}
+.box_product .icLoyalty {
+  float: right;
+  display: block;
+  background: #fff url(../images/ic-home.png) -178px -160px no-repeat;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  bottom: 0;
+  right: 2px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  border-radius: 16px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  border: 0;
+  cursor: pointer;
+}
+.content_item .overflow_box .price-box {
+  padding: 5px;
+  padding-top: 8px;
+}
+.content_item .overflow_box .price-box .current_price {
+  color: #F00;
+  font-weight: bold;
+}
+.content_item .overflow_box .price-box .old_price {
+  float: right;
+  display: block;
+  font-size: 11px;
+  color: #999;
+  text-decoration: line-through;
+}
+.discount-tag {
+  position: absolute;
+  background: #ff6600;
+  width: 40px;
+  height: 40px;
+  color: #FFF;
+  text-align: center;
+  right: 1px;
+  top: 1px;
+  line-height: 40px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  cursor: default;
+  z-index: 1;
+  border-radius: 100%;
+}
+.content_item .overflow_box .name_product {
+  display: block;
+  overflow: hidden;
+  height: 16px;
+}
+.content_item .overflow_box .name_product {
+  color: #666;
+  display: block;
+  overflow: hidden;
+  line-height: 16px;
+  max-height: 32px;
+  padding: 0 5px;
+  font-weight: normal;
+}
+.content_item .overflow_box .social_box {
+  color: #666;
+  padding: 7px 5px;
+  float: left;
+  min-width: 100px;
+  height: 30px;
+}
+.content_item .overflow_box .social_box .s_b {
+  display: table-cell;
+  line-height: 16px;
+}
+.social_box .s_b span {
+  margin-right: 10px;
+}
+.social_box .s_b span.luotmua:before {
+  content: "\f02b";
+}
+.social_box .s_b span:before {
+  padding-right: 5px;
+}
+*, *:before, *:after {
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+*:before, *:after {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.social_box .s_b span.luotxem:before {
+  content: "\f06e";
+}
+.social_box .s_b span.luotcomment:before {
+  content: "\f086";
+}
+.content_item .overflow_box .box_shop_place {
+  font-size: 11px;
+  height: 32px;
+  line-height: 32px;
+  background: #f4f4f4;
+  padding: 0 5px;
+  clear: both;
+}
+.content_item .overflow_box .box_shop_place .lotus, .content_item .overflow_box .box_shop_place .icBrand {
+  float: left;
+  background: url(../images/ic-home.png) -175px -130px no-repeat;
+  width: 20px;
+  height: 21px;
+  position: relative;
+  top: 5px;
+  left: -4px;
+}
+.content_item .overflow_box .box_shop_place .name_shop {
+  color: #4585f4;
+  float: left;
+  display: block;
+  width: 90px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  font-weight: normal;
+}
+.content_item .overflow_box .box_shop_place .ensure_shop:before {
+  content: '';
+  width: 18px;
+  height: 21px;
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.box-app-s {
+  background-color: #bce7fd;
+  color: #0099ff;
+  font-size: 11px;
+  float: right;
+  position: relative;
+  padding: 0 5px;
+  height: 26px;
+  margin-top: 3px;
+  border-radius: 2px;
+  line-height: 26px;
+  cursor: pointer;
+}
+.box-app-s span {
+  color: #0099ff;
+  font-size: 11px;
+  font-family: arial;
+  padding: 0;
+  background-color: #bce7fd;
+  border-radius: 3px;
+  /* border: 1px solid #99d9f9; */
+  position: absolute;
+  height: 26px;
+  line-height: 26px;
+  top: 0;
+  z-index: 3;
+  margin-left: -115px;
+  display: block;
+  text-align: center;
+  width: 0;
+  overflow: hidden;
+  transition: all .3s linear;
+  -moz-transition: all .3s linear;
+  -webkit-transition: all .3s linear;
+  -ms-transition: all .3s linear;
+  right: -5px;
+}
+.box-app-s span b {
+  color: #e5101d;
+}
+.box-app-s:after {
+  color: #0099ff;
+  font-size: 17px;
+  content: "\f10b";
+  padding-left: 5px;
+  vertical-align: middle;
+}
+

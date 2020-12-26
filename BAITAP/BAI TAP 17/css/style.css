@@ -1,0 +1,101 @@
+/* CSS Document */
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-family: arial;
+  font-size: 12px;
+}
+.down .chi_li_con {
+  display: block;
+}
+#chi_product{margin:40px; width:70%;}
+#chi_product #chi_pani {
+  border-top: 1px dotted #999;
+  overflow: hidden;
+  margin: 10px 2px 0 2px;
+  border-bottom: 1px dotted #999;
+  float:left;
+}
+ol, ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+#chi_product #chi_pani ul li#pa_mes {
+  background: url(../images/pa_mes.png) no-repeat left 10px;
+  padding-left: 22px;
+}
+#chi_product #chi_pani ul li {
+  float: left;
+  padding-top: 10px;
+}
+#chi_product #chi_pani ul li a {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: #252e1c;
+}
+#chi_product #chi_pani ul li a span {
+  font: 12px Arial;
+  color: #0b5db3;
+}
+#chi_pani #pa_border {
+  margin: 5px 13px 5px 13px;
+  font-size: 5px;
+  line-height: 10px;
+  margin: 5px 12px;
+  background: url(../images/bg_border.png) no-repeat;
+}
+#chi_product #chi_pani ul li#pa_war {
+  background: url(../images/pa_war.png) no-repeat left 10px;
+  padding-left: 19px;
+}
+#chi_product #chi_pani ul li#pa_sav {
+  background: url(../images/pa_sav.png) no-repeat left 10px;
+  padding-left: 21px;
+}
+#chi_product #chi_pani ul li#pa_pri {
+  background: url(../images/pa_pri.png) no-repeat left 10px;
+  padding-left: 22px;
+}
+#chi_product #chi_pr_desc {
+  float: left;
+}
+#chi_product #chi_pr_desc p, #chi_product #chi_pr_desc h2 {
+  font: 12px Arial;
+  font-size:small;
+  color: #000;
+  font-weight: normal;
+}
+strong, b {
+  font-weight: bold;
+}
+#chi_product #chi_pr_desc p, #chi_product #chi_pr_desc h2 {
+  font: 12px Arial;
+  color: #000;
+  font-weight: normal;
+}
+.chi_lienhe {
+  float: left;
+  margin-top: 10px;
+  background: white;
+  padding: 1px;
+  text-align: left;
+  width: 100%;
+}
+.chi_lienhe .chi_li_header {
+  height: 30px;
+  padding-left: 5px;
+  color: #fff;
+  font-weight: bold;
+  line-height: 28px;
+  background: #999999 url(../images/vi_up.png) center right no-repeat;
+  cursor: pointer;
+}
+.chi_lienhe .chi_li_con {
+  padding: 10px 0 10px 10px;
+  display: none;
+}
+

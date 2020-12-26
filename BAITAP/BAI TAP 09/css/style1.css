@@ -1,0 +1,120 @@
+/* CSS Document */
+.best_buy_shop {
+  margin-top: 14px;
+  border: 1px #ddd solid;
+  background: #FFF;
+}
+.best_buy_shop .title {
+  height: 34px;
+  border-bottom: 2px #CCC solid;
+}
+.best_buy_shop .title a {
+  line-height: 32px;
+  border-bottom: 2px #F00 solid;
+  float: left;
+  font-size:14px;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.best_buy_shop .box_product_best_buy .name a:hover {
+  color: #4585f4;
+}
+a {
+  text-decoration: none !important;
+  color: #333;
+  border: 0;
+  cursor: pointer;
+}
+.best_buy_shop .title i {
+  float: right;
+  margin-right: 8px;
+}
+.view-more {
+  text-align: right;
+  display: block;
+  font-size: 12px;
+  padding: 5px 10px;
+  position: relative;
+}
+.best_buy_shop .title i:before {
+  content: "\f105";
+  font-size: 15px;
+  color: #666;
+}
+body {
+  margin: 0 auto;
+  min-height: 100%;
+  line-height: 1;
+  font-size: 12px;
+  font-family: 'FontAwesome';
+  color: #333;
+  background-color: #f9f9f9;
+}
+*:before, *:after {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.best_buy_shop .box_product_best_buy {
+  margin: 5px 0;
+  padding: 5px 0;
+}
+.best_buy_shop .box_product_best_buy .img {
+  margin: 0 auto;
+  text-align: center;
+}
+img {
+  border: 0;
+  max-width: 100%;
+}
+.best_buy_shop .box_product_best_buy .price {
+  color: #F00;
+  padding-left: 20px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+	margin:0;
+}
+.best_buy_shop .box_product_best_buy .name a {
+  color: #333;
+  padding-left: 20px;
+  padding-top: 5px;
+  display: block;
+  line-height: 18px;
+  font-weight: normal;
+  text-transform: lowercase;
+  font-size:14px;
+}
+.best_buy_shop .box_product_best_buy:hover {
+  background-color: #f1f1f1;
+}
+.best_buy_shop .box_product_best_buy .buy {
+  font-size: 12px;
+  margin-left: 20px;
+  padding-left: 20px;
+  line-height: 20px;
+  margin-top: 5px;
+  position: relative;
+}
+.best_buy_shop .box_product_best_buy .buy:before {
+  content: "\f02c";
+  position: absolute;
+  left: 0;
+}
+*, *:before, *:after {
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+

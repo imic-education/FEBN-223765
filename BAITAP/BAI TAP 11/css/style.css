@@ -1,0 +1,412 @@
+/* CSS Document */
+.counted-deal {
+  position: relative;
+  padding:10px;
+}
+.pull-left {
+  padding-top: 6px;
+}
+.pull-right {
+  float: right;
+}
+.counted-deal .c-val {
+  font-size: 17px;
+  font-style: italic;
+}
+.button-wrap-inner {
+  display: inline;
+  padding: 0px 2px;
+}
+.button-wrap-inner .btn {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 3px;
+  border: none;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 12px;
+  background: #a1a1a1;
+  padding: 1px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  height: 28px;
+  line-height: 28px;
+  text-transform: none;
+}
+.btn {
+  display: inline-block;
+  text-align: center;
+  background: #f4f2f3;
+  color: #336699;
+  height: 35px;
+  line-height: 34px;
+  border: 1px solid #d8d8d8;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 3px;
+}
+.button-wrap-inner .active {
+  background-color: #166ead;
+  padding-left: 10px;
+}
+.inside-list {
+  /* margin-left: -4.22%; */
+  margin-left: -25px;
+  word-spacing: -0.33em;
+}
+.deal-item {
+  word-spacing: normal;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 25px;
+  font-family: arial, sans-serif;
+}
+.deal-item .inner-deal {
+  margin-bottom: 15px;
+}
+.deal-item .inner-deal {
+  background: #FFF;
+  padding: 7px 7px 10px 7px;
+  box-shadow: 0 1px 1px rgba(169,169,169,0.75);
+  border-radius: 2px;
+  min-height: 296px;
+  margin: 0 0 25px 0;
+  position: relative;
+}
+.deal-item .wrap-imgdesc {
+  position: relative;
+  overflow: hidden;
+  /* margin-bottom: 5px; */
+  margin-bottom: 13px;
+}
+
+.clearfix:before, .clearfix:after, .container:before, .container:after, .container-fluid:before, .container-fluid:after, .row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.deal-item .img-thumb-deal {
+  display: block;
+  position: relative;
+  height: 0;
+  width: 100%;
+  padding-bottom: 100%;
+}
+a {
+  color: #444;
+  text-decoration: none;
+}
+.img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+img {
+  max-width: 100%;
+  /* width: auto\9; */
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.deal-item .shop-name-sg {
+  font-size: 1em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  padding: 0 3px 0 6px;
+  height: 26px;
+  overflow: hidden;
+  line-height: 26px;
+  width: 100%;
+  -webkit-transition: bottom 0.15s;
+  -moz-transition: bottom 0.15s;
+  -ms-transition: bottom 0.15s;
+  -o-transition: bottom 0.15s;
+  transition: bottom 0.15s;
+}
+.rs {
+  margin: 0;
+  padding: 0;
+}
+.deal-item .shop-name-sg:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #000;
+  opacity: 0.6;
+}
+.deal-item .shop-name-sg > span {
+  position: relative;
+}
+.deal-item .deal-use-location {
+  position: absolute;
+  bottom: -22px;
+  left: 0;
+  width: 100%;
+  height: 22px;
+  line-height: 16px;
+  color: #fff;
+  padding: 0 14px 0 19px;
+  -webkit-transition: bottom 0.15s;
+  -moz-transition: bottom 0.15s;
+  -ms-transition: bottom 0.15s;
+  -o-transition: bottom 0.15s;
+  transition: bottom 0.15s;
+}
+.deal-item .deal-use-location:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+  filter: alpha(Opacity=60);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+}
+.hide-text-over {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: block;
+}
+.clearfix:after, .container:after, .container-fluid:after, .row:after {
+  clear: both;
+}
+.deal-item .deal-use-location > span {
+  position: relative;
+  color: #fff;
+  font-size: 0.9230769230769231em;
+}
+.deal-item .lbl-discount-stick {
+  background: rgba(0, 0, 0, 0) url(../images/icon-saleoff-1.png) no-repeat scroll 0 0;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  line-height: 50px;
+  position: absolute;
+  right: 5px;
+  text-align: center;
+  top: 5px;
+  width: 50px;
+}
+.deal-item .lbl-discount-stick span {
+  font-family: Open Sans;
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: 2px;
+}
+.grp-bottom-content {
+  height: 92px;
+  padding: 0 5px;
+  position: relative;
+}
+.deal-item .grp-name-price {
+  height: auto;
+}
+.deal-item .grp-name-price {
+  height: 72px;
+}
+.clear_both, .clb, .clear {
+  clear: both;
+}
+.clear {
+  background: none;
+  border: 0;
+  clear: both;
+  display: block;
+  float: none;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+.deal-item .deal-name {
+  font-weight: 700;
+  line-height: 1.2em;
+  height: 39px;
+  margin-bottom: 2px;
+  font-size: 1.153846153846154em;
+}
+.deal-item .deal-name a {
+  color: #444;
+}
+.deal-item .bottom-info {
+  padding-bottom: 2px;
+}
+.deal-item .price.percent-left {
+  float: none;
+  display: block;
+  font-size: 96%;
+}
+.deal-item .price-style2 {
+  display: none;
+}
+.deal-item .price.percent-left .valNew {
+  border: none;
+  margin: 0;
+  padding: 1px 0;
+}
+.deal-item .price.percent-left .val {
+  font-size: 1.153846153846154em;
+  float: left;
+  border-top: none;
+}
+.deal-item .price-sale {
+  color: #ac0000;
+}
+.deal-item .price-sale .price-val {
+  font-size: 1.066666666666667em;
+}
+.fs-14 {
+  font-size: 1.076923076923077em;
+}
+.deal-item .val .price-unit {
+  font-weight: 400;
+}
+.deal-item .price-sale .price-unit {
+  font-size: 0.6875em;
+  border-color: #ac0000;
+}
+.deal-item .val .price-unit {
+  font-size: 0.8666666666666667em;
+  display: inline-block;
+  line-height: 1em;
+  vertical-align: 2px;
+  border-bottom: 1px solid #333;
+  margin-left: 1px;
+}
+.deal-item .price-show-ny {
+  color: #959595;
+}
+.deal-item .price-show-ny {
+  color: #777;
+  text-decoration: line-through;
+  padding: 1px 0 0 15px;
+  display: inline-block;
+}
+.deal-item .price-show-ny .pcs-val {
+  font-size: 1.230769230769231em;
+}
+.deal-item .price-show-ny {
+  color: #959595;
+}
+.deal-item .price-show-ny .pcs-unit {
+  font-size: 0.8461538461538462em;
+  text-decoration: underline;
+  vertical-align: 1px;
+}
+.deal-item .deal-rate {
+  padding-top: 2px;
+}
+.deal-item .deal-rate {
+  border-bottom: 0;
+  padding: 5px 0 0 0;
+  margin-top: 0;
+}
+.make-left {
+  float: left;
+}
+.deal-item .deal-rate .fs-12, .deal-item .deal-buyer span {
+  font-size: 0.9230769230769231em;
+  color: #959595 !important;
+  font-family: Tahoma, sans-serif;
+}
+.deal-item .deal-buyer span {
+  font-size: 0.92307692307692em;
+  color: #777;
+  /* font-style: italic; */
+}
+.deal-item .btn-detail2 {
+  display: block !important;
+}
+.deal-item .btn-detail2 {
+  display: none;
+  position: absolute;
+  bottom: 2px;
+  right: 5px;
+  line-height: 0;
+}
+.iDetail2 {
+  width: 30px;
+  height: 30px;
+  background-position: -1253px 0 !important;
+}
+.icon-v3 {
+  background: transparent url(../images/v3-icon.png) no-repeat;
+  border: none;
+  line-height: 0;
+  display: inline-block;
+}
+a:hover, a:active {
+  outline: 0;
+}
+.iDetail2:hover {
+  background-position: -1283px 0 !important;
+}
+a:hover {
+  text-decoration: underline;
+}
+.deal-item .inner-deal:hover .shop-name-sg {
+  bottom: 22px;
+  height: 24px;
+}
+.deal-item .deal-use-location:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.6;
+}
+.deal-item .inner-deal .deal-name a:hover {
+  color: #EF532A;
+  text-decoration: none;
+}
+.deal-item .price .val {
+  border-top: 1px solid #888888;
+}
+.deal-item .deal-rate .icon-star {
+  margin: 0 3px 0 0;
+}
+.star-sm-yl {
+  width: 64px;
+  background-position: -138px 0;
+}
+.icon-star {
+  background: transparent url(../images/all-star.png) no-repeat 0 0;
+  border: none;
+  line-height: 0;
+  display: inline-block;
+}
+.star-sm-yl > i {
+  display: block;
+  height: 12px;
+  background-image: inherit;
+  background-position: -202px 0;
+  border: none;
+  line-height: 0;
+}

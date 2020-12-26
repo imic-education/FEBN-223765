@@ -1,0 +1,28 @@
+/* CSS Document */
+.style_h1{
+	font-size:24px;
+}
+.style_span{
+	font-size:12px;	
+}
+.style_p{
+	float: right;
+  margin: 2px 5px;
+  color: red;
+  font-size: 13px;
+  font-weight: 100;	
+}
+.right{
+	float:right;
+	width:50%;
+}
+.left{
+	width:40%;
+}
+.txt{
+	height:190px !important;
+}
+.btn{
+	background:#F00;
+	color:#FFF;
+}

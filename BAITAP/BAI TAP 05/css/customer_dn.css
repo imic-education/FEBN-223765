@@ -1,0 +1,193 @@
+form{
+	margin:10%;
+	padding:0;
+}
+.login_form_new {
+  width: 465px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 0 0 20px;
+}
+.login_form_new .x_popup {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: -25px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  color: #fff;
+  line-height: 25px;
+  background: #080602;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.login_form_new .lognew_title {
+  font-family: Myriad Pro;
+  font-size: 21px;
+  font-weight: 700;
+  text-align: center;
+  color: #444;
+  height: 60px;
+  line-height: 65px;
+}
+.login_form_new .lognew_input_txt {
+  margin: 0 68px 20px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  height: 30px;
+}
+.login_form_new .lognew_input_txt .i.us {
+  float: left;
+  height: 14px;
+  width: 12px;
+  margin: 8px 0 0 9px;
+  background-position: 0 -250px;
+}
+.login_form_new .i {
+  display: block;
+  background-repeat: no-repeat;
+  background-image:url(../images/icon.png);
+}
+.login_form_new .lognew_input_txt span {
+  display: block;
+  margin: 0 0 0 32px;
+  height: 30px;
+}
+.login_form_new .lognew_input_txt span input {
+  height: 16px;
+  padding: 15px 0 6px;
+  border: 0 none;
+  background: none;
+  width: 100%;
+  outline: 0 none;
+}
+input {
+  font-family: arial,sans-serif;
+  vertical-align: middle;
+  font-size: 11px;
+}
+.login_form_new .lognew_input_txt {
+  margin: 0 68px 20px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  height: 30px;
+}
+.login_form_new .lognew_input_txt .i.pas {
+  float: left;
+  height: 14px;
+  width: 12px;
+  margin: 8px 0 0 9px;
+  background-position: -20px -250px;
+}
+.login_form_new .pas_remember {
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 0 20px 68px;
+  color: #555;
+  font-family: tahoma;
+  font-size: 11px;
+}
+.float_left_eb, .fl_eb, .fL_eb, .fl, #fl {
+  float: left;
+}
+.login_form_new .btn_login .iloading {
+  height: 16px;
+  width: 16px;
+  background: url(../images/ajax-loader1.gif) no-repeat 0 0;
+  position: absolute;
+  top: 10px;
+  left: 130px;
+  display: none;
+}
+.login_form_new .not_remempass {
+  display: block;
+  height: 20px;
+  line-height: 20px;
+  margin: 0 68px 20px 300px;
+  text-align: right;
+  color: #005fb3;
+  font-size: 11px;
+  font-family: tahoma;
+}
+.login_form_new .btn_login {
+  margin: 0 0 35px;
+  position: relative;
+}
+.login_form_new .pas_remember input {
+  float: left;
+  margin: 3px 5px 0 0;
+  position: static !important;
+  outline: 0 none;
+}
+.fl.pas_remember>label {
+  display: inline-block;
+}
+
+.login_form_new .login_hr {
+  height: 1px;
+  background:url(../images/repeat_x4.png) repeat-x 0 0;
+  margin: 0 23px 15px;
+}
+.login_form_new .login_other_lbl {
+  text-align: center;
+  font-family: tahoma;
+  font-size: 11px;
+  color: #555;
+  height: 30px;
+  line-height: 20px;
+}
+.login_form_new .login_other_select {
+  height: 28px;
+  margin: 0 0 15px;
+}
+.login_form_new .free_reg {
+  text-align: center;
+  font-family: tahoma;
+  color: #555;
+  font-size: 11px;
+}
+.login_form_new .free_reg a {
+  color: #0270bd;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 0 0 0 5px;
+}
+.login_form_new .login_other_select .facebook_sl {
+  width: 98px;
+  margin-left:75px;
+  background-position: -45px -250px;
+}
+.login_form_new .login_other_select a {
+  display: inline-block;
+  height: 28px;
+  margin: 0 5px;
+  background-repeat: no-repeat;
+  background-image: url(../images/icon.png);
+}
+.login_form_new .login_other_select .google_sl {
+  width: 94px;
+  background-position: -153px -250px;
+}
+.login_form_new .login_other_select .yahoo_sl {
+  width: 94px;
+  background-position: -256px -250px;
+}
+.login_form_new .btn_login input {
+  height: 36px;
+  line-height: 36px;
+  width: 155px;
+  border: 0 none;
+  background: #ffba00;
+  text-align: center;
+  border-radius: 2px;
+  color: #5f4500;
+  font-size: 16px;
+  margin-left:162px;
+  font-weight: 700;
+  cursor: pointer;
+  outline: 0 none;
+}

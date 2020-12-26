@@ -1,0 +1,181 @@
+#box-main_new {
+  width: 980px;
+  height: auto;
+}
+.header {
+  background-color: #F6F7FC;
+  border: 1px solid #E7EEF6;
+  border-bottom: none;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 18px;
+  color: #024D8E;
+  text-align: left;
+  padding: 2px 15px;
+  margin-top: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.centered {
+  margin: auto;
+  width: 810px;
+}
+.lucida {
+  font-family: "Lucida Grande", Arial;
+}
+.content-two-zero {
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-size: 13px;
+}
+.centered {
+  margin: auto;
+  width: 810px;
+}
+.clearfix {
+  clear: both;
+  height: 11px;
+}
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+.round5 {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+.smartbox {
+  border: 1px #d9dcde solid;
+  display: table;
+  zoom: 1;
+  margin: auto;
+  padding: 1px;
+  background: #fff;
+}
+.smartbox .i {
+  background: #eeeeee;
+}
+.arrow-menu {
+  color: #9fa9ae;
+  text-shadow: 1px 1px 0 #fff;
+  font-size: 15px;
+}
+.arrow-menu a.active {
+  background: url(../images/arrows.png) scroll right top no-repeat;
+  color: #ffffff;
+  font-size: 18px;
+  text-shadow: 1px 1px 0 #407ba2;
+}
+.arrow-menu a {
+  background: url(../images/arrows.png) scroll right bottom no-repeat;
+  display: inline-block;
+  zoom: 1;
+  height: 38px;
+  padding: 10px 155px 0 25px;
+  vertical-align: middle;
+  text-decoration: none;
+  position: relative;
+}
+.arrow-menu a img {
+  margin-right: 10px;
+}
+.absmid {
+  vertical-align: middle;
+}
+img {
+  border: none;
+}
+.arrow-menu a.last {
+  background-position: 0 bottom !important;
+}
+form {
+  margin: 0;
+  padding: 0;
+}
+.smartbox .tform {
+  overflow: hidden;
+  line-height: 8px;
+}
+.smartbox .i-light {
+  background: #f8f7f7;
+  padding: 20px 0 10px 0;
+}
+.floatLeft {
+  float: left;
+}
+.smartbox .tform label {
+  float: left;
+  width: 180px;
+  margin-right: 10px;
+  padding-top: 8px;
+  text-align: right;
+  font-size: 13px;
+  color: #606060;
+  overflow: hidden;
+  line-height: 15px;
+}
+label {
+  cursor: pointer;
+}
+.smartbox input.cc {
+  background: #e9e9e9;
+  border: 1px #e4e4e4 solid;
+  border-top: 1px #bfbfbf solid;
+  padding: 6px 10px;
+  font-size: 13px;
+  width: 210px;
+}
+input {
+  font-family: arial,sans-serif;
+  vertical-align: middle;
+  font-size: 11px;
+}
+.smartbox .tform .error {
+  margin-left: 190px;
+  padding-left: 20px;
+  color: red;
+  font-size: 11px;
+  line-height: 15px;
+  padding-top: 0px;
+}
+.paddingL30 {
+  padding-left: 30px;
+}
+a.ttbutton {
+  border: 1px #4483ab solid;
+  border-bottom: 1px #346b8f solid;
+  background: #6db2df;
+  background: -moz-linear-gradient(top, #6db2df 0%, #4b8fbc 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #6db2df), color-stop(100%, #4b8fbc));
+  background: -webkit-linear-gradient(top, #6db2df 0%, #4b8fbc 100%);
+  background: -o-linear-gradient(top, #6db2df 0%, #4b8fbc 100%);
+  background: -ms-linear-gradient(top, #6db2df 0%, #4b8fbc 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#6db2df', endColorstr = '#4b8fbc', GradientType = 0);
+  background: linear-gradient(top, #6db2df 0%, #4b8fbc 100%);
+  text-decoration: none;
+  display: block;
+  zoom: 1;
+  margin: auto;
+}
+, a:link, a:visited {
+  text-decoration: none;
+  color: #034b8a;
+  cursor: pointer;
+}
+.ttbutton .ins {
+  display: block;
+  border: 1px #79b8e1 solid;
+  padding: 19px 15px;
+  font-size: 20px;
+  color: #fff;
+}
+.ttbutton .ar {
+  font-size: 24px;
+  font-weight: bold;
+  margin-left: 10px;
+  text-shadow: 1px 1px 1px #2c4f65;
+}

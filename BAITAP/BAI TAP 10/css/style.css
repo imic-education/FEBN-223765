@@ -1,0 +1,103 @@
+/* CSS Document */
+.promotion_box_left {
+  margin-top: 0;
+  background: #FFF;
+  border: 1px solid #ddd;
+  margin-bottom: 5px;
+  border-radius: 2px;
+}
+.promotion_box_left .title {
+  height: 34px;
+  margin-top:0;
+  border-bottom: 2px #CCC solid;
+  position: relative;
+  font-size:16px;
+}
+body {
+  margin: 0 auto;
+  min-height: 100%;
+  line-height: 1;
+  font-size: 12px;
+  font-family: 'FontAwesome';
+  color: #333;
+  background-color: #f9f9f9;
+}
+.promotion_box_left .title span, .promotion_box_left .title a {
+  display: block;
+  line-height: 32px;
+  border-bottom: 2px #F00 solid;
+  float: left;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.promotion_box_left .promotion-box .product-box {
+  padding: 6px 8px;
+  overflow: hidden;
+  border-bottom: 1px solid #f2f2f2;
+  position: relative;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  border: 0;
+  cursor: pointer;
+}
+.promotion-box .product-box .img {
+  /* border: 1px #CCC solid; */
+  float: left;
+  margin-right: 8px;
+  display: block;
+}
+img {
+  border: 0;
+  max-width: 100%;
+}
+.promotion-box .product-box .content {
+  margin-left: 110px;
+  margin-bottom:10px;
+}
+.promotion-box .product-box .content .name {
+  margin: 5px 0;
+  line-height: 16px;
+  overflow: hidden;
+  max-height: 34px;
+  text-decoration: none;
+  display: block;
+  text-transform: inherit;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.product-box .content .shop_name strong {
+  color: #4585f4;
+  display: inline-block;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+b, strong {
+  font-weight: 100;
+    padding-left: 10px;
+}
+body {
+  margin: 0 auto;
+  min-height: 100%;
+  line-height: 1;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+}
+.fa-clock-o:before {
+  content: "\f017";
+}
+i.fa.fa-clock-o {
+	color:#F00;
+}
+img.lazy {
+  height: 70px;
+}
+
+

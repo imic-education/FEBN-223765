@@ -1,0 +1,189 @@
+/* CSS Document */
+#hoidap {
+  overflow: hidden;
+  background: #fff;
+	margin:20px;
+	width:56%;
+}
+ol, ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+#hoidap #list_select ul li {
+  float: left;
+  padding: 0 14px;
+  font: 12px Arial;
+}
+
+#hoidap #list_select ul li a {
+  padding: 5px 0 4px 0;
+  display: block;
+  color: #999;
+}
+a {
+  text-decoration: none;
+  color: #252e1c;
+}
+.button_red {
+  height: 30px;
+  line-height: 30px;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  width: auto;
+}
+.button_red .left {
+  height: 30px;
+  line-height: 30px;
+  padding-left: 4px;
+  background: url(../images/button_bg_red_left.gif) left top no-repeat;
+}
+.button_red .right {
+  height: 30px;
+  line-height: 30px;
+  padding-right: 4px;
+  background: url(../images/button_bg_red_right.gif) right top no-repeat;
+}
+.button_red .center {
+  height: 30px;
+  line-height: 30px;
+  background: url(../images/button_bg_red_center.gif) top repeat-x;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+  color: #FFF;
+  width: auto;
+}
+#hoidap #list_select .li_sort {
+  content: ".";
+  display: block;
+  overflow: hidden;
+}
+.clearfix {
+  display: block;
+}
+#hoidap #list_select .li_sort form {
+  float: right;
+  font: 12px Arial;
+  color: #333;
+  margin-right: 19px;
+}
+#hoidap #hoi_comment #list_select {
+  border-bottom: 1px solid #f5f5f5;
+  padding: 8px 0 8px 4px;
+  text-align: left;
+  height: 40px;
+  border-top: 1px solid #f5f5f5;
+}
+#hoidap #list_select .li_sort select {
+  margin-left: 6px;
+  width: 150px;
+}
+#hoi_comment #comment_list li {
+  padding: 20px 19px 0 19px;
+  position: static;
+  overflow: hidden;
+}
+#hoi_comment #cm_avt {
+  float: left;
+  margin: 0 19px 20px 0;
+}
+#hoi_comment #cm_container {
+  position: relative;
+  text-align: left;
+  padding: 16px 30px 16px 16px;
+  float: left;
+  width: 530px;
+  border: 1px solid #e7e7e7;
+}
+#hoi_comment #cm_container #cm_mid {
+  background: url(../images/q_left_cm.png) 0 0 no-repeat;
+  width: 9px;
+  height: 16px;
+  position: absolute;
+  left: -9px;
+}
+#hoi_comment #cm_container h3 {
+  font: bold 12px Arial;
+  color: #333;
+  margin-bottom: 5px;
+}
+#hoi_comment #cm_container h3 a {
+  font-size: 12px;
+  font-family: Arial;
+}
+#hoi_comment #cm_container .content {
+  font: 12px Arial;
+  color: #333;
+}
+div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+#ne_sharend ul li {
+  float: left;
+  margin-left: 8px;
+}
+#ne_sharend #facebook {
+  width: auto;
+  height: 18px;
+  display: block;
+  background: #5F78AB url(../images/facebook.png) 1px 2px no-repeat;
+  padding: 1px;
+  padding-left: 22px;
+  font-size: 10px;
+  line-height: 18px;
+  color: #fff;
+  padding-right: 3px;
+}
+.fb_iframe_widget {
+  display: inline-block;
+  position: relative;
+}
+.fb_iframe_widget span {
+  display: inline-block;
+  position: relative;
+  text-align: justify;
+}
+#hoi_comment #cm_bottom, #hoi_comment #cm_bottom .cm_bt_l, #hoi_comment #cm_bottom .cm_bt_r, #hoi_comment #cm_bottom span span {
+  float: left;
+}
+#hoi_comment #cm_bottom {
+  margin-top: 10px;
+}
+#hoi_comment #cm_bottom .cm_bt_l {
+  margin-right: 6px;
+}
+#hoi_comment #cm_bottom #actorname a {
+  color: #004497;
+}
+#hoi_comment #cm_bottom a {
+  display: block;
+  font: bold 11px Arial;
+  height: 18px;
+  line-height: 18px;
+}
+#hoi_comment #cm_bottom .stream a {
+  font-weight: normal;
+  color: #9a9a9a;
+  padding-right: 15px;
+}
+#hoi_comment #cm_bottom #cm_view a {
+  background: url(../images/cm_view.png) 15px center no-repeat;
+}
+#hoi_comment #cm_bottom #cm_view a, #hoi_comment #cm_bottom .cm_report a {
+  border-left: 1px solid #d9d9d9;
+  padding-left: 35px;
+  padding-right: 17px;
+  font-weight: normal;
+  color: #333;
+}
+#hoi_comment #cm_bottom .cm_report a {
+  background: url(../images/cm_report.png) 15px center no-repeat;
+}

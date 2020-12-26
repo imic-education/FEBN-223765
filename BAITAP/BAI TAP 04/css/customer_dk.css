@@ -1,0 +1,288 @@
+#modalLogin.modal {
+  width: 360px;
+  margin-left: -180px;
+}
+.modal.fade.in {
+  top: 10%;
+  z-index: 1041;
+  bottom:14%;
+}
+.fade.in {
+  opacity: 1;
+}
+.modal {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  z-index: 1050;
+  width: 600px;
+  margin-left: -300px;
+  background-color: #ffffff;
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  display: none;
+  right: 0;
+}
+.modal-body {
+  padding: 15px;
+  background-color: #f2f2f2;
+  overflow-y: auto;
+}
+.modal-header {
+  border-bottom: 1px solid #eee;
+  position: relative;
+  background: #fff;
+  font-size: 15px;
+  color: #333;
+  height: 44px;
+  line-height: 40px;
+  padding: 0 10px;
+  overflow: hidden;
+}
+#modalLogin .modal-header .caption {
+  font-size: 17px;
+  text-transform: uppercase;
+  line-height: 46px;
+}
+.modal-header .close {
+  border: 1px solid #e5101d;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: bold;
+  height: 24px;
+  line-height: 18px;
+  text-align: center;
+  width: 24px;
+  color: #e5101d;
+  margin-top: 8px;
+  background: none;
+  border-radius: 2px;
+  float: right;
+}
+.modal-login .login-body, .modal-login .signup-body {
+  display: none;
+}
+form {
+  margin: 0;
+}
+#modalLogin .signup-body .login-social {
+  border-bottom: 1px solid #e5e5e5;
+  position: relative;
+  padding-bottom: 10px;
+}
+#modalLogin .box-fl .login-social .lbl {
+  line-height: 30px;
+  margin-right: 10px;
+}
+#modalLogin .box-fl .login-social span, #modalLogin .box-fl .login-social a {
+  float: left;
+  font-size: 13px;
+  white-space: nowrap;
+  line-height: 30px;
+}
+#modalLogin .box-fl .login-social span, #modalLogin .box-fl .login-social a {
+  float: left;
+  font-size: 13px;
+  white-space: nowrap;
+  line-height: 30px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  border: 0;
+  cursor: pointer;
+}
+#modalLogin .signup-body .login-social .break-login-social {
+  line-height: 30px;
+  height: 60px;
+}
+p, pre {
+  margin: 0;
+}
+#modalLogin .box-fl .login-social a strong {
+  color: #e5101d;
+}
+b, strong {
+  font-weight: bold;
+}
+#modalLogin .box-fl .login-social span, #modalLogin .box-fl .login-social a {
+  float: left;
+  font-size: 13px;
+  white-space: nowrap;
+  line-height: 30px;
+}
+#modalLogin .box-fl .login-social span, #modalLogin .box-fl .login-social a {
+  float: left;
+  font-size: 13px;
+  white-space: nowrap;
+  line-height: 30px;
+}
+a.abc.login-fb {
+  background-position: -249px -841px;
+}
+a.abc {
+  margin: 0 5px;
+  display: inline-block;
+  background: url(../images/ic-home.png) 0 0 no-repeat;
+  width: 29px;
+  height: 30px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  border: 0;
+  cursor: pointer;
+}
+a.abc.login-go {
+  background-position: -280px -841px;
+}
+#modalLogin .main-login > div {
+  position: relative;
+  margin-top: 10px;
+}
+.register_error {
+  color: #E5101D;
+  font-size: 11px;
+  margin-left: 5px;
+  font-style: italic;
+  display: none;
+  line-height: 18px;
+}
+#modalLogin .main-login .b-email {
+  margin-top: 15px;
+}
+#modalLogin .main-login .b-email:before, #modalLogin .main-login .b-password:before {
+  content: '';
+  background: url(../images/ic-home.png) no-repeat -262px -155px;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+}
+:before, *:after {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#modalLogin .main-login > div > input {
+  display: block;
+  width: 100%;
+  height: 34px;
+  border: 1px solid #c9c9c9;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  transition: all .2s linear;
+  padding-left: 25px;
+  font-size: 13px;
+  border-radius: 2px;
+}
+button, input {
+  line-height: normal;
+  zoom: 1;
+}
+button, input, select, textarea {
+  font-size: 100%;
+  margin: 0;
+  vertical-align: baseline;
+}
+.modal-login .error {
+  color: #E5101D;
+  font-size: 11px;
+  margin-top: 5px;
+  margin-left: 5px;
+  font-style: italic;
+  display: none;
+  line-height: 18px;
+}
+#modalLogin .main-login > div {
+  position: relative;
+  margin-top: 10px;
+}
+#modalLogin .main-login .b-password:before {
+  background-position: -290px -155px;
+}
+#modalLogin .main-login > div {
+  position: relative;
+  margin-top: 10px;
+}
+#modalLogin .main-login .b-catpcha {
+  margin-bottom: 10px;
+}
+#modalLogin .signup-body .main-login label {
+  margin-top: 0;
+  padding: 0;
+}
+#modalLogin .main-login label {
+  display: block;
+  position: relative;
+  font-size: 13px;
+  font-weight:100;
+  line-height: 24px;
+}
+label {
+  cursor: pointer;
+}
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+#modalLogin .signup-body .main-login label a {
+  color: #06c;
+}
+#modalLogin .main-login .bt-cont {
+  height: 34px;
+  line-height: 34px;
+  display: block;
+  margin: 10px 0;
+  color: #fff;
+  text-align: center;
+  background-color: #e5101d;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  width: 100%;
+  border: 1px solid #e5101d;
+}
+#modalLogin .main-login .b-name #reg_firstname {
+  width: 206px;
+  display: inline-block;
+  padding-left: 5px;
+}
+#modalLogin .main-login .b-name #reg_lastname {
+  width: 100px;
+  margin-left: 10px;
+  display: inline-block;
+  padding-left: 5px;
+}
+#modalLogin .main-login .b-catpcha #catpcha_input {
+  width: 150px;
+  display: inline-block;
+}
+.refresh {
+  cursor: pointer;
+  margin-left: 10px;
+  width:20px;
+  display: inline-block;
+  background: url(../images/ic-home.png) no-repeat -283px -225px;
+}
+.refresh:before {
+  content: '';
+  color: #4585f4;
+  font-size: 22px;
+  
+}
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Đăng ký tài khoản</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/customer_dk.css"/>
+</head>
+
+<body>
+	<div class="container">
+    	<div id="box-main_new">
+		   <div class="header" style="float:left;height:auto;display: inline; width:948px;margin: 0;">
+			  <div class="headerLeft">
+				 <div class="headerRight" id="titleRegisterForm">Đăng ký tài khoản
+				 </div>
+			  </div>
+		   </div>
+		   <div style="float:left; width:978px;border:1px solid #E7EEF6; overflow: hidden;padding-bottom: 20px;">
+			  <div class="centered">
+				 <div class="content-two-zero lucida">
+					<div class="centered" style="/*text-align:center;*/">
+					   <div class="clearfix"></div>
+					   <div class="clearfix"></div>
+					   <div class="smartbox round5" id="tmenu">
+						  <div class="i round5">
+							 <div class="arrow-menu">
+								<a href="javascript:void(0);" class="roundBL5 roundTL5 active">
+								<img src="images/p1.png" class="absmid">Tạo tài khoản
+								</a>
+								<a class="roundBR5 roundTR5 last">
+								<span></span>
+								<img src="images/p3.png" class="absmid">Xác thực đăng ký
+								</a>
+							 </div>
+						  </div>
+					   </div>
+					   <div class="clearfix"></div>
+					   <form name="myform" id="myform" method="post" action="register.html?cmd=register_step3">
+						  <div class="smartbox round5">
+							 <div style="width: 677px;" class="i-light round5 tform" id="tform">
+								<div class="floatLeft">
+								   <label for="email">Email:</label>
+								   <input type="text" name="email" id="email" class="cc" value="">
+								   <br><br>
+								   <div id="mail" name="mail" class="error"></div>
+								   <label for="register_user_name">Tên truy cập:</label>
+								   <input name="register_user_name" id="register_user_name" class="cc" type="text" value="">
+								   <br><br>
+								   <div id="user" name="user" class="error"></div>
+								   <label for="register_password">Mật khẩu:</label>
+								   <input name="register_password" onmouseover="showtip('* Chú ý: Không nên để mật khẩu là số ĐT, tên đăng nhập hoặc 123456',300);" onmouseout="hidetip();" id="register_password" class="cc" type="password" value="">
+								   <br><br>
+								   <div id="rpassword" name="rpassword" class="error"></div>
+								   <label for="confirm_password">Xác nhận mật khẩu:</label>
+								   <input name="confirm_password" id="confirm_password" class="cc" type="password" value="">
+								   <br><br>
+								   <div id="cpassword" name="cpassword" class="error"></div>
+								   <div>
+								   </div>
+								   <div class="floatLeft paddingL30" style="">
+									  <a class="ttbutton round5" href="javascript:void(0)" onclick=""><span class="ins round5">Tiếp tục<span class="ar">&gt;</span></span></a><br><br>
+								   </div>
+								</div>
+							 </div>
+						  </div>
+					   </form>
+					</div>
+				 </div>
+			  </div>
+		   </div>
+		   <div style="clear:both"></div>
+		</div>
+    </div>
+</body>
+</html>

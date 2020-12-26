@@ -1,0 +1,213 @@
+/* CSS Document */
+#li_products {
+  margin-bottom: 10px;
+  padding-left: 20px;
+  margin-top:20px;
+  width:70%;
+  padding-right: 20px;
+}
+#li_products #list_select {
+	padding: 10px;
+  text-align: left;
+  height: 40px;
+  border-bottom: 1px dotted #dbdfe0;
+  margin-bottom: 1px;
+}
+#list_select .li_sort {
+  content: ".";
+  display: block;
+  overflow: hidden;
+}
+#select {
+  float: left;
+}
+#select a#active {
+  color: #333333;
+}
+#select a {
+  color: #0C5DB5;
+}
+a {
+  text-decoration: none;
+  color: #252e1c;
+}
+#select a#active span {
+  font: bold 12px Arial;
+}
+#select a span {
+  font: 12px Arial;
+}
+#select span#border {
+  background: url(../images/border.png) no-repeat scroll 0 0 transparent;
+  margin: 0 15px;
+}
+#select a span {
+  font: 12px Arial;
+}
+#list_select .li_sort form {
+  float: right;
+  font: 12px Arial;
+  color: #333;
+}
+div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+#list_select .li_sort select {
+  margin-left: 6px;
+  width: 150px;
+}
+#list_filter {
+  overflow: hidden;
+  text-align: right;
+  height: 25px;
+  background-color: #f2f2f2;
+  color: #666666;
+  width: 100%;
+  margin-bottom: 1px;
+}
+#list_filter p {
+  float: left;
+  margin-right: 11px;
+  line-height: 24px;
+  color: #999;
+}
+#list_filter input#bt_compare {
+  background: url(../images/compare_pro.gif) no-repeat;
+  cursor: pointer;
+  border: 0 none;
+  width: 115px;
+  height: 25px;
+  padding: 0;
+  margin: 0;
+}
+#list_filter p img {
+  display: inline;
+  vertical-align: middle;
+}
+a img, img {
+  border: none;
+}
+#products_li {
+  border-top: 1px dotted #dddddd;
+  padding-top: 15px;
+}
+ol, ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+ul#li_products_list li {
+  border-bottom: 1px solid #f1f1f1;
+  height: 200px;
+  margin-bottom: 20px;
+  text-align: left;
+  padding-bottom: 5px;
+}
+ul#li_products_list .left_block {
+  float: left;
+  background: #f5f5f5;
+  padding: 3px;
+  height: 145px;
+}
+ul#li_products_list .center_block {
+  float: left;
+  padding-left: 2px;
+  width: 210px;
+  overflow: hidden;
+}
+#product_detail {
+  overflow: hidden;
+}
+.product_img_link {
+  float: left;
+  margin-right: 9px;
+}
+.dvideo {
+  background: url(../images/big_play_button1.png) no-repeat scroll left bottom transparent;
+  bottom: 0;
+  cursor: pointer;
+  height: 52px;
+  left: 0;
+  position: absolute;
+  width: 68px;
+  z-index: 100;
+}
+.product_contact {
+  float: left;
+  padding-left: 2px;
+  width: 280px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.product_contact h3 a {
+  color: #0c5eb4;
+  font-size: 12px;
+}
+.product_desc {
+  color: #999;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  line-height:15px;
+  font-size:12px;
+}
+.product_contact p#li_co {
+  color: #343434;
+    line-height:15px;
+  font-size:12px;
+}
+strong, b {
+  font-weight: bold;
+}
+.product_price {
+  float: right;
+  height: 150px;
+  text-align: right;
+}
+.product_price, span.product_price, #productlist .product_detail a span.product_price, #productlist .product_detail a h1.product_price {
+  font-weight: 700;
+  color: #900;
+}
+.product_price p#li_price {
+  color: #990000;
+  font: bold 12px Arial;
+  width: 115px;
+  word-wrap: break-word;
+}
+.product_save {
+  float: right;
+  margin-left: 26px;
+  margin-top: 5px;
+}
+.product_save input {
+  padding: 1px 9px;
+  height: 25px;
+  width: 52px;
+  background: url(../images/save_pro.gif) no-repeat;
+  border: 0 none;
+  cursor: pointer;
+}
+.dat_coc_icon {
+  float: right;
+  height: 150px;
+  text-align: right;
+}
+.dat_coc_icon, span.dat_coc_icon, #productlist .product_detail a span.dat_coc_icon, #productlist .product_detail a h1.dat_coc_icon {
+  color: #999;
+  font-weight: 700;
+}
+.dat_coc_icon p#li_price {
+  color: #999999;
+  font: bold 12px Arial;
+  width: 115px;
+  word-wrap: break-word;
+}
+
+
+
+

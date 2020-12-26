@@ -1,0 +1,72 @@
+/* CSS Document */
+#probuytem {
+  background: #FFFFFF url(../images/bg_dkbx_top.gif) top no-repeat;
+  border-left: 3px solid #D9D9D9;
+  border-right: 3px solid #D9D9D9;
+}
+#probuytem .probuytem {
+  background: transparent url(../images/bg_dkbx_button.gif) bottom no-repeat;
+  padding: 20px 40px 75px;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+table, tbody, tfoot, thead, tr, th, td {
+  vertical-align: baseline;
+  vertical-align: top;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: 400;
+}
+.title_probuy {
+  color: #9A0000;
+  padding: 30px 0 14px;
+}
+.dkbx_request {
+  background: url(../images/dkbx_request.gif) no-repeat scroll center bottom transparent;
+  color: #9A9A9A;
+  margin: 0 0 10px;
+  padding: 15px 0 25px;
+}
+.pro_text {
+  width: 210px;
+  border: 0 none;
+  border-bottom: 1px dotted #999999;
+  font-weight: bold;
+  text-align: center;
+}
+.pro_tdcat {
+  background: url(../images/dkbx_step_index.gif) no-repeat scroll 8px 50% transparent;
+  color: #000000;
+  font-weight: bold;
+  height: 22px;
+  padding: 12px 0;
+  text-indent: 18px;
+}
+.probuyitem_content {
+  position: relative;
+}
+.probuyitem_content .pro_text {
+  text-align: left;
+}
+.camket {
+  font-size: 11p;
+  color: #9A9A9A;
+}
+.bt_accept {
+  background: url(../images/bt_accept_dkbx.gif) no-repeat scroll left transparent;
+  height: 33px;
+  width: 103px;
+  border: medium none;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.bt_reset {
+  background: url(../images/bt_reset_dkbx.gif) no-repeat scroll left transparent;
+  height: 33px;
+  width: 103px;
+  border: medium none;
+  cursor: pointer;
+}

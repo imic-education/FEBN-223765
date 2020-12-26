@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Untitled Document</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/customer_dk.css"/>
+</head>
+<body>
+	<div class="container">
+       <div class="modal hide fade modal-login in" onshow="showPopup();" style="display: block !important;" id="modalLogin">
+        <span id="flag_popup" style="display:none;">0</span>
+        <div class="modal-header">
+        	<span class="caption" id="caption">Đăng ký tài khoản</span>
+        	<button aria-hidden="true" data-dismiss="modal" class="close" type="button">x</button>        
+    	</div>
+        <div class="modal-body ">
+            <div class="box-fl">
+              <div class="signup-body" style="display: block;">
+                <form method="post" action="#" id="register-form-validate" onsubmit="return fosp_register()" class="ng-pristine ng-valid">
+                    <div class="login-social">
+                        <span class="lbl">Bạn đã có tài khoản Sendo.</span>
+                        <a rel="nofollow" href="javascript:void(0);" onclick="" title="Đăng nhập"><strong>Đăng nhập</strong></a>
+                        <p class="break-login-social">
+                          <span class="break">Bạn cũng có thể đăng nhập với:</span>
+                          <a rel="nofollow" class="abc login-fb" href="javascript:void(0);" onclick="" title="Facebook"></a>
+                          <a rel="nofollow" class="abc login-go" href="javascript:void(0);" onclick="" title="Google"></a>
+                        </p>                   
+                        
+                    </div>            
+                    <div class="main-login">
+                            <div class="register_error" id="register_error"></div>
+                            <div class="b-email">
+                                <input type="text" placeholder="Nhập email muốn đăng ký" autofocus="autofocus" name="email" class="" id="reg_email" autocomplete="off" onchange="check_email(this.id);">
+                                <div class="error" id="reg_error_email"></div>
+                            </div>
+                           <div class="b-password">
+                               <input type="password" placeholder="Vui lòng nhập mật khẩu" name="password" id="reg_password" autocomplete="off" class="required-entry">
+                           </div>   
+                           <div class="b-password re-pass">
+                               <input type="password" placeholder="Vui lòng nhập lại mật khẩu" name="re_password" id="reg_re_password" class="required-entry">
+                           </div> 
+                          <div class="b-name">
+                            <input type="text" id="reg_firstname" name="firstname" placeholder="Họ và tên đệm" class="required-entry" maxlength="30">
+                            <input id="reg_lastname" name="lastname" type="text" placeholder="Tên" class="required-entry" maxlength="10">  
+                          </div> 
+                          <div class="b-catpcha">
+                              <input type="text" name="captcha" id="catpcha_input" class="required-entry">  
+                              <img width="120" height="30" src="images/222.png" alt="Capcha image" class="captcha_img"> 
+                              <span class="refresh" onclick="show_captcha()">&nbsp;</span>
+                          </div>                  
+                           
+                          <label>
+                              <input type="checkbox" name="get_newsletter" checked="checked" value="1"> 
+                              Đăng ký nhận bản tin Sendo.vn
+                          </label>
+                          <label>
+                            <input type="checkbox" name="agree" checked="checked" value="1" id="check_agree"> 
+                            <a rel="nofollow" href="#" target="_blank" title="Xem điều khoản sử dụng">Tôi đồng ý với điều khoản sử dụng</a>
+                          </label>
+                          <button class="btn-register bt-cont" type="submit">Đăng ký</button>                                             
+                    </div>                
+                </form>
+            </div>    
+          </div>   
+        </div>
+    </div>
+    </div>
+</body>
+</html>

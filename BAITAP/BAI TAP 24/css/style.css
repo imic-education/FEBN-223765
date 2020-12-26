@@ -1,0 +1,120 @@
+/* CSS Document */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #7F7F7F;
+}
+.style_h1{
+	font-style: italic;
+  font-weight: bold;
+  color: #323334;
+  margin-left:10px;
+  font-size:26px;
+  margin-top:5%;
+}
+.content{
+	margin:0;
+	padding:0;
+}
+.box{
+	border: 1px solid #d3d3d3;
+  padding-bottom: 16px;
+  margin: 16px 8px auto;
+  height:auto;
+    padding: 12px 16px 0;
+}
+.box_a{
+	  display: inline-block;
+  background-color: #F4BC00;
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 14px;
+  margin: 0 3px 0 0;
+  position: static;
+}
+input, select, textarea {
+  background-color: #FFFFFF;
+  border: 1px solid #D3D3D3;
+  color: #323334;
+  font-family: Arial,Helvetica, sans-serif;
+  font-size: 12px;
+	margin: 4px 10px 9px;
+  padding: 5px 0px;
+}
+.p_price{
+	float: right;
+  margin-right: 20px;
+  margin-top: -35px;
+}
+.col_ul{list-style:none;display: inline-block;overflow: hidden;
+  float: none;width: auto; margin-left:-55px}
+.col_li{float:left; margin-left:25px;}
+.txt_search{
+	margin:10px;
+	font-size:13px;
+}
+span.ui-checkbox, span.ui-radio {
+  clear: left;
+  display: block;
+  float: left;
+  width: 13px;
+  height: 15px;
+  background-position: left -40px;
+}
+span.ui-checkbox, span.ui-radio, .ui-state-default .ui-icon, .ui-state-error span.ui-radio span, .ui-state-error span.ui-checkbox {
+  background: url(../images/forms_sprite.png) no-repeat;
+}
+input[type='radio'],[type='checkbox'] {
+  float: left;
+  width: auto;
+}
+span.ui-checkbox, span.ui-radio {
+  margin-top: 6px;
+}
+input[type="checkbox"], input[type="radio"], span.ui-checkbox, span.ui-radio {
+  margin-right: 8px;
+}
+span.ui-radio-state-checked {
+  background-position: left -140px;
+}
+
+.ui-helper-hidden-accessible {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px,1px,1px,1px);
+}
+.ui-radio + label, .ui-checkbox + label, [type="checkbox"] + label, [type="radio"] + label {
+  font-size:12px;
+}
+label{font-size: 12px;
+  font-weight: 100;
+}
+.col_frm{margin:0; padding:0}
+.lbl_txt{margin-top:10px;}
+.ipt{float:right;
+	width:65%; margin: 0px -5px;}
+.qd{
+	margin-top: 10px;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+.btn {
+  margin-bottom:20px;
+  margin-top:10px;
+  background: #F0AD00;
+}
+.btn-danger:hover {
+  color: #fff;
+  background-color: #F0AD00;
+  border-color: #FFF;
+
+}
+.btn_check{
+	  background-position: left -160px;
+	  background: url(../images/forms_sprite.png) no-repeat;
+}

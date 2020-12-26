@@ -1,0 +1,152 @@
+/* CSS Document */
+.camnangmuasam {
+  margin-top: 10px;
+  background: #FFF;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+h1, .h1, h2, .h2, h3, .h3 {
+	margin:0;
+}
+.camnangmuasam .title {
+  height: 34px;
+  border-bottom: 2px #CCC solid;
+}
+.camnangmuasam .big_box {
+  padding: 8px 10px;
+  overflow: hidden;
+}
+.camnangmuasam .other_list {
+  margin: 10px 10px 5px 10px;
+  margin-top: 0;
+  padding-top: 5px;
+  border-top: 1px #CCC dashed;
+}
+.camnangmuasam .title a {
+  line-height: 32px;
+  border-bottom: 2px #F00 solid;
+  float: left;
+  margin-left: 10px;
+  text-transform: uppercase;
+  font-size:14px;
+  font-weight:bold;
+  position: relative;
+  padding-left: 20px;
+}
+.camnangmuasam .title a:before {
+  content: '';
+  background: url(../images/ic-home.png) no-repeat -281px -891px;
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 18px;
+  height: 16px;
+}
+.camnangmuasam .title i, .promotion_box_left .title i {
+  float: right;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.camnangmuasam .title i:before, .promotion_box_left .title i:before {
+  content: "\f105";
+}
+.camnangmuasam .big_box > a {
+  float: left;
+  margin-right: 8px;
+}
+.camnangmuasam .img-thumb-single {
+  text-align: center;
+  font-size: 9px!important;
+  background: transparent;
+  display: table-cell;
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+}
+.camnangmuasam .big_box img {
+  float: none;
+  margin-right: 0;
+}
+.camnangmuasam .img-main {
+  max-width: 100%;
+  max-height: 100%;
+}
+img {
+  border: 0;
+  max-width: 100%;
+}
+.camnangmuasam .big_box h3 {
+  line-height: 16px;
+  overflow: hidden;
+  max-height: 50px;
+}
+.camnangmuasam .big_box div.date {
+  margin: 5px 0;
+  font-size: 11px;
+  color: #666;
+}
+.camnangmuasam .big_box p {
+  line-height: 17px;
+  text-align: justify;
+  font-size:13px;
+}
+p, pre {
+  margin: 0;
+}
+ol, ul, li {
+  list-style: none;
+}
+.view-more {
+  text-align: right;
+  display: block;
+  font-size: 11px;
+  padding: 5px 10px;
+  position: relative;
+}
+.camnangmuasam .other_list > ol > li {
+  list-style: none;
+  font-size: 11px;
+  font-weight: bold;
+  position: relative;
+  padding: 3px 0;
+}.other_list > ol > li:before {
+  content: "\f101";
+  font-size: 12px;
+  position: absolute;
+  left: 0;
+  top: 6px;
+}
+.other_list > ol > li > a {
+  display: block;
+  line-height: 16px;
+  font-size:12px;
+  max-height: 32px;
+  overflow: hidden;
+  margin-left: 15px;
+}
+.view-more:after {
+  content: "\f105";
+  font-size: 13px;
+  padding-left: 3px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  border: 0;
+  cursor: pointer;
+}
+h3, .h3 {
+   font-size: 16px; 
+   font-weight:bold;
+}
+

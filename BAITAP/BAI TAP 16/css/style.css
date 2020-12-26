@@ -1,0 +1,237 @@
+/* CSS Document */
+#chi_product {
+	margin:20px;
+  float: left;
+  border: 1px solid #d9d9d9;
+}
+#chi_product #chi_product_right {
+  float: left;
+  background: #f5f5f6;
+  min-height: 614px;
+  padding-bottom: 10px;
+}
+#chi_product #chi_product_right #chi_pr_img {
+  margin-top: 11px;
+  margin-left: 10px;
+  float:left;
+}
+#chi_pr_img_me {
+  position: relative;
+}
+div#wrap {
+  margin: 5px 0 0;
+}
+a {
+  text-decoration: none;
+  color: #252e1c;
+}
+a img, img {
+  border: none;
+}
+#chi_product_right #list_img_thumb {
+  padding: 0px;
+  float: left;
+  width: 365px;
+}
+#list_img_thumb span {
+  float: left;
+  display: block;
+  width: 68px;
+  margin-right: 5px;
+  margin-top: 5px;
+  position: relative;
+  height: 43px;
+}
+#chi_product #chi_product_left {
+  width: 615px;
+  text-align: left;
+  background: #fff;
+  float: left;
+  border-right: 1px solid #f5f5f5;
+}
+#chi_product_left #chi_pr_detail {
+  padding: 20px 15px 0 19px;
+}
+#chi_product #chi_pr_top #chi_pr_title, #chi_product #chi_pr_top #chi_pr_title h1 {
+  font: bold 18px Arial;
+  color: #333;
+}
+#chi_product #chi_pr_top #chi_pr_title, #chi_product #chi_pr_top #chi_pr_price {
+  float: left;
+  margin-right: 5px;
+}
+#chi_product #chi_pr_top #chi_pr_title, #chi_product #chi_pr_top #chi_pr_title h1 {
+  font: bold 18px Arial;
+  color: #333;
+}
+#chi_product #chi_pr_top #chi_pr_title, #chi_product #chi_pr_top #chi_pr_price {
+  float: left;
+  margin-right: 5px;
+}
+#chi_pr_price span.dat_coc_icon, #chi_pr_price span.sap_ve_icon, #chi_pr_price span.product_price, #chi_pr_price span.xe_dang_chuyen_icon {
+  font-size: 18px;
+}
+.product_price, span.product_price, #productlist .product_detail a span.product_price, #productlist .product_detail a h1.product_price {
+  font-weight: 700;
+  color: #900;
+}
+div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+#chi_product #chi_pr_top #chi_pr_id {
+  float: right;
+  font: 12px Arial;
+  line-height: 18px;
+  color: #999;
+}
+.kiemdinh_button {
+  position: absolute;
+  right: 70px;
+  top: -27px;
+}
+#chi_product #chi_pr_date {
+  clear: both;
+  margin-top: 5px;
+  color: #999;
+}
+#chi_product #ne_sharend {
+  margin: 10px 0;
+}
+ol, ul {
+  list-style: none outside none;
+  margin: 0;
+  padding: 0;
+}
+#chi_product #ne_sharend li {
+  float: left;
+  margin-left: 8px;
+}
+#chi_product #ne_sharend #facebook {
+  width: auto;
+  height: 18px;
+  display: block;
+  background: #5F78AB url(../images/facebook.png) 1px 2px no-repeat;
+  padding: 1px;
+  padding-left: 22px;
+  font-size: 10px;
+  line-height: 18px;
+  color: #fff;
+  padding-right: 3px;
+}
+.fb_iframe_widget {
+  display: inline-block;
+  position: relative;
+}
+.fb_iframe_widget span {
+  display: inline-block;
+  position: relative;
+  text-align: justify;
+}
+.fb_iframe_widget iframe {
+  position: absolute;
+}
+#tskt_tab1 {
+  border: 1px solid #f5f5f5;
+  border-bottom: 0 none;
+}
+.content {
+  BORDER-TOP: #dedede 1px solid;
+  border-top: 1px solid #f5f5f5;
+}
+.col {
+  margin-left: 19px;
+  width: 287px;
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+#tskt_tab1 .row {
+  border-bottom: 1px solid #f5f5f5;
+}
+.row {
+  float: left;
+}
+#tskt_tab1 .col .label {
+  border-right: 1px solid #F5F5F5;
+}
+#tskt_tab1 .col .label, #tskt_tab1 .col .txt_input {
+  padding: 6px 0 5px 3px;
+  background: none;
+}
+.col .label, .col .txt_input {
+  float: left;
+  margin: 1px 1px 1px 0;
+  padding: 6px 0 6px 5px;
+  background: #f5f5f5;
+}
+.col .label {
+  width: 111px;
+}
+.label label, .txt_input span {
+  font: 12px Arial;
+  color: #333;
+}
+.col .txt_input {
+  width: 164px;
+}
+.txt_input {
+  margin: 1px 0;
+}
+.clear {
+  clear: both;
+}
+.contact_buy_car {
+  width: 280px;
+  float: right;
+  background-color: #fbfbfb;
+  border: 1px solid #f5f5f5;
+}
+.order_item_button {
+  width: 100%;
+  margin-top: 20px;
+}
+.order_item_button .dang-ky-mua-xe {
+  float: left;
+  width: 267px;
+  cursor: pointer;
+  padding: 5px 10px;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background: #dddddd;
+  color: #990000;
+}
+.order_item_button .dang-ky-mua-xe-tra-gop {
+  float: right;
+  width: 260px;
+  cursor: pointer;
+  padding: 5px 10px;
+  line-height: 25px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background: #dddddd;
+  color: #990000;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+table, tbody, tfoot, thead, tr, th, td {
+  vertical-align: baseline;
+  vertical-align: top;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: 400;
+}
+
+
+

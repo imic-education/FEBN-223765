@@ -1,0 +1,140 @@
+/* CSS Document */
+.site-cat{
+
+}
+.site-cat .item .img i {
+  background-image: url(../images/icon_focus.png);
+}
+.site-cat .content .img i {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  top: -13px;
+  left: -13px;
+}
+.site-cat .item {
+  width: 230px;
+  float: left;
+  margin: 0 10px 20px;
+  background-color: #fff;
+}
+.site-cat .item {
+  width: 230px;
+  float: left;
+  margin: 0 10px 20px;
+  background-color: #fff;
+}
+.shadow:hover {
+  box-shadow: 0px 0px 3px #999;
+}
+.shadow, .shadow-nohover {
+  box-shadow: 0px 0px 3px #ccc;
+  transition: box-shadow 0.4s ease;
+  -moz-transition: box-shadow 0.4s ease;
+  -webkit-transition: box-shadow 0.4s ease;
+  -o-transition: box-shadow 0.4s ease;
+}
+.site-cat .content {
+  padding: 10px;
+}
+.site-cat .item .ic-info {
+  background-color: #F8F8F8;
+  padding: 10px 10px 7px;
+}
+.site-cat .content .img {
+  margin-bottom: 10px;
+  position: relative;
+  width: 220px;
+}
+a {
+  color: #0060af;
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+.site-cat .item h4 {
+  margin-bottom: 3px;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: inherit;
+  font-weight: bold;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+.site-cat .item .author-cat {
+  font-size: 11px;
+  line-height: 17px;
+  margin-bottom: 5px;
+}
+.site-cat .item .author-cat span, .site-cat .item .author-cat a {
+  display: inline;
+  margin-right: 3px;
+}
+.site-cat .item .author i {
+  font-size: 16px;
+  color: #D2D2D2;
+  margin-right: 5px;
+}
+a [class^="icon-"], a [class*=" icon-"] {
+  display: inline-block;
+  text-decoration: inherit;
+}
+.icon-user:before {
+  content: "\f007";
+}
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+}
+.site-cat .item .text p {
+  line-height: 20px;
+}
+.site-cat .item .text p .more {
+  font-weight: bold;
+  padding-left: 5px;
+}
+.site-cat .item .ic-info {
+  background-color: #F8F8F8;
+  padding: 10px 10px 7px;
+}
+.site-cat .item .ic-info a {
+  color: #969696;
+  font-weight: bold;
+  text-shadow: 0px 1px 0px #fff;
+  margin-right: 7px;
+  padding-right: 12px;
+  display: inline-block;
+  font-size: 11px;
+  background:url(../images/line_boxIcon.gif) no-repeat right;
+}
+.site-cat .item .ic-info i {
+  font-size: 16px;
+  color: #969696;
+  text-shadow: 0px 1px 0px #fff;
+  margin-right: 3px;
+  vertical-align: baseline;
+}
+.icon-eye-open:before {
+  content: "\f06e";
+}
+.site-cat .item .ic-info a span {
+  display: none;
+}
+.icon-comments:before {
+  content: "\f086";
+}
+.icon-thumbs-up:before {
+  content: "\f087";
+}

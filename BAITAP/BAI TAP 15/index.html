@@ -1,0 +1,144 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Untitled Document</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<div class="container">
+    	<div id="li_products">
+           <div id="list_select">
+              <div class="li_sort clearfix">
+                 <div id="select">                                
+                    <a id="active" class="link_pro_new" href="#"><span>Mới đăng 127 xe</span></a>	
+                    <span id="border">&nbsp;</span>
+                    <a href="#" class="link_pro_saled"><span>Đã bán 3121 xe</span></a>
+                 </div>
+                 <form action="#" id="frm_product_sort" method="post">
+                    <p class="select">
+                       <label for="selectPrductSort">Sắp xếp theo</label> 
+                       <select id="selectPrductSort" name="productsort" onchange="this.form.submit();">
+                          <option selected="selected" value="0">Xe mới nhất</option>
+                          <option value="1">Giá tăng dần</option>
+                          <option value="2">Giá giảm dần</option>
+                          <option value="3">Tên: A đến Z</option>
+                          <option value="4">Tên: Z đến A</option>
+                       </select>
+                    </p>
+                    <input type="hidden" value="\bproductsort=[0-9]\b" id="regex_sort">
+                 </form>
+              </div>
+           </div>
+           <div id="list_filter">
+              <p> 
+                 <input type="button" onclick="" id="bt_compare" class="button" value="">
+                 <input type="hidden" name="hdd_id" id="hdd_id" value="">
+              </p>
+              <p>( Tích chọn ô <img src="images/fi_check.png" alt=""> để so sách 2 xe mà bạn muốn! )</p>
+           </div>
+           <div id="products_li">
+              <ul id="li_products_list">
+                 <li id="first">
+                    <div class="left_block">
+                       <p class="compare"> 
+                          <input type="checkbox" name="id" id="10591" value="10591" onclick="javascript: AddIdCheck(this);" class="comparator">
+                       </p>
+                    </div>
+                    <div class="center_block">
+                       <div id="product_detail">
+                          <a class="product_img_link" href="#" title="Ford Fiesta S 1.6AT 2012" style="width: 210px; height: 150px; position: relative; overflow: hidden;">
+                             <img src="images/ford-fiesta-09.jpg" alt="Ford Fiesta S 1.6AT 2012" border="0" width="202">
+                             <img src="images/kiem-dinh.png" title="Xe đã kiểm định" alt="xe đã được kiểm định" style="position: absolute; left: 0px; top: 0px;" border="0">
+                             <div class="dvideo"></div>
+                          </a>
+                       </div>
+                    </div>
+                    <div class="product_contact">
+                       <div style="height: 20px;">
+                          <span style="line-height: 20px; display: block; float: left; font-family: tahoma; margin-right: 3px; text-transform: uppercase; font-size: 9px; font-weight: bold; padding: 0 5px; color: #fff; background: #0C5EB4;">Đã qua sử dụng</span>
+                          <h3><a href="#" title="Ford Fiesta S 1.6AT 2012">Ford Fiesta S 1.6AT 2012</a></h3>
+                       </div>
+                       <p id="li_category" style="position: relative;"></p>
+                       <p class="product_desc">
+                          Xe lắp ráp trong nước, màu Xám, Số tự động, máy Xăng<br>
+                          Bán xe&nbsp;Ford Fiesta&nbsp;S hatchback 1.6 AT, &nbsp;số tự động, màu xám, sản xuất năm 2012....
+                       </p>
+                       <p id="li_co"><b>Liên hệ:</b> 090.800.3392 (C.Hằng) , 091.322.1999 (A.Tuấn), Chi nhánh Sài Gòn - Trung tâm Bình Triệu Showroom Anycar Sài Gòn 387, Quốc Lộ 13, Phường Hiệp Bình Phước, Quận Thủ Đức Hồ Chí Minh Việt Nam</p>
+                    </div>
+                    <div class="product_price">
+                       <p id="li_price">515 Triệu</p>
+                       <p class="product_save"><input type="button" class="wishlistSelect" onclick="" value=""></p>
+                    </div>
+                 </li>
+                 <li>
+                    <div class="left_block">
+                       <p class="compare"> 
+                          <input type="checkbox" name="id" id="10692" value="10692" onclick="javascript: AddIdCheck(this);" class="comparator">
+                       </p>
+                    </div>
+                    <div class="center_block">
+                       <div id="product_detail">
+                          <a class="product_img_link" href="#" title="Ford Focus 2.0AT 2014" style="width: 210px; height: 150px; position: relative; overflow: hidden;">
+                          <img src="images/ford-focus-10.jpg" alt="Ford Focus 2.0AT 2014" border="0" width="202">
+                          <img src="images/kiem-dinh.png" title="Xe đã kiểm định" alt="xe đã được kiểm định" style="position: absolute; left: 0px; top: 0px;" border="0">
+                          </a> 
+                       </div>
+                    </div>
+                    <div class="product_contact">
+                       <div style="height: 20px;">
+                          <span style="line-height: 20px; display: block; float: left; font-family: tahoma; margin-right: 3px; text-transform: uppercase; font-size: 9px; font-weight: bold; padding: 0 5px; color: #fff; background: #0C5EB4;">Đã qua sử dụng</span>
+                          <h3><a href="#" title="Ford Focus 2.0AT 2014">Ford Focus 2.0AT 2014</a></h3>
+                       </div>
+                       <p id="li_category" style="position: relative;"></p>
+                       <p class="product_desc">
+                          Xe lắp ráp trong nước, màu Trắng, Số tự động, máy Xăng<br>
+                          Bán&nbsp;Ford Focus&nbsp;2.0AT, màu trắng, số tự động, sản xuất năm 2014, lắp ráp...
+                       </p>
+                       <p id="li_co"><b>Liên hệ:</b> 090.800.3392 (C.Hằng) , 091.322.1999 (A.Tuấn), Chi nhánh Sài Gòn - Trung tâm Bình Triệu Showroom Anycar Sài Gòn 387, Quốc Lộ 13, Phường Hiệp Bình Phước, Quận Thủ Đức Hồ Chí Minh Việt Nam</p>
+                    </div>
+                    <div class="dat_coc_icon">
+                       <p id="li_price">745 Triệu</p>
+                       <p class="product_save"><input type="button" class="wishlistSelect" onclick="" value=""></p>
+                    </div>
+                 </li>
+                 <li>
+                    <div class="left_block">
+                       <p class="compare"> 
+                          <input type="checkbox" name="id" id="10686" value="10686" onclick="javascript: AddIdCheck(this);" class="comparator">
+                       </p>
+                    </div>
+                    <div class="center_block">
+                       <div id="product_detail">
+                          <a class="product_img_link" href="#" title="Ford Everest 2.5MT 2007" style="width: 210px; height: 150px; position: relative; overflow: hidden;">
+                             <img src="images/ford-everest-10.jpg" alt="Ford Everest 2.5MT 2007" border="0" width="202">
+                             <img src="images/kiem-dinh.png" title="Xe đã kiểm định" alt="xe đã được kiểm định" style="position: absolute; left: 0px; top: 0px;" border="0">
+                             <div class="dvideo"></div>
+                          </a>
+                       </div>
+                    </div>
+                    <div class="product_contact">
+                       <div style="height: 20px;">
+                          <span style="line-height: 20px; display: block; float: left; font-family: tahoma; margin-right: 3px; text-transform: uppercase; font-size: 9px; font-weight: bold; padding: 0 5px; color: #fff; background: #0C5EB4;">Đã qua sử dụng</span>
+                          <h3><a href="#" title="Ford Everest 2.5MT 2007">Ford Everest 2.5MT 2007</a></h3>
+                       </div>
+                       <p id="li_category" style="position: relative;"></p>
+                       <p class="product_desc">
+                          Xe lắp ráp trong nước, màu Phấn hồng, Số sàn, máy Dầu<br>
+                          Bán&nbsp; Ford Everest 2.5MT, màu phấn hồng, số sàn, sản xuất 2007, lắp ráp trong...
+                       </p>
+                       <p id="li_co"><b>Liên hệ:</b> 091.322.1999 (A.Tuấn) , 091.322.9023 (C.Giang), Chi nhánh Hà Nội - Trung Tâm Mỹ Đình Khu Liên Hợp TTQG, Đối diện SVĐ Mỹ Đình, Đường Lê Đức Thọ, Từ Liêm, Hà Nội</p>
+                    </div>
+                    <div class="dat_coc_icon">
+                       <p id="li_price">459 Triệu</p>
+                       <p class="product_save"><input type="button" class="wishlistSelect" onclick=" value=""></p>
+                    </div>
+                 </li>
+              </ul>
+           </div>
+        </div>
+    </div>
+</body>
+</html>

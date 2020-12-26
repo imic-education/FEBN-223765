@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Untitled Document</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+</head>
+
+<body>
+	<div class="container">
+    	<div id="mod_contact">
+           <div class="contact_left">
+              <div class="contact_title" style="font-size: 21px; color: #d5d5d5; margin: 1px; padding-left: 0px; height: 34px;">
+                 <a href="#" class="contact_tab contact_tab_active">Gửi liên hệ</a>  
+              </div>
+              <table class="contact_content" cellpadding="1" cellspacing="3">
+                 <tbody>
+                    <tr>
+                       <td>
+                          <table cellpadding="5" cellspacing="0" class="table_none">
+                             <tbody>
+                                <tr>
+                                   <td colspan="2" style="text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#153CF0;"></td>
+                                </tr>
+                                <tr>
+                                   <td colspan="2" style="text-align:center; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#153CF0;"></td>
+                                </tr>
+                                <tr>
+                                   <td class="coltdleft">Danh xưng </td>
+                                   <td class="coltdright">
+                                      <select id="sex" name="sex" class="select">
+                                         <option value="not">==Chọn danh tính==</option>
+                                         <option value="Ong">Ông</option>
+                                         <option value="Bà">Bà</option>
+                                      </select>
+                                   </td>
+                                </tr>
+                                <tr>
+                                   <td class="coltdleft">Họ và tên:</td>
+                                   <td class="coltdright"><input class="textbox" type="text" name="name" id="name_contact" maxlength="50" style="width:400px;" value=""><font color="red">(*)</font></td>
+                                </tr>
+                                <tr>
+                                   <td class="coltdleft">Địa chỉ:</td>
+                                   <td class="coltdright"><input class="textbox" type="text" name="address" id="address_contact" maxlength="50" style="width:400px;" value=""><font color="red">(*)</font></td>
+                                </tr>
+                                <tr>
+                                   <td class="coltdleft">Số điện thoại:</td>
+                                   <td class="coltdright"><input class="textbox" type="text" name="tel" id="tel_contact" maxlength="50" style="width:400px;" value=""><font color="red">(*)</font></td>
+                                </tr>
+                                <tr>
+                                   <td class="coltdleft">Email:</td>
+                                   <td class="coltdright"><input class="textbox" type="text" name="email" id="email_contact" maxlength="50" style="width:400px;" value=""><font color="red">(*)</font></td>
+                                </tr>
+                                <tr>
+                                   <td class="coltdleft">Liên hệ với bộ phận: </td>
+                                   <td class="coltdright">
+                                      <select id="dep" name="dep" class="select">
+                                         <option value="not">==Bộ phận==</option>
+                                         <option value="kt">Kỹ thuật</option>
+                                         <option value="kd">Kinh doanh</option>
+                                         <option value="tv">Tư vấn</option>
+                                      </select>
+                                   </td>
+                                </tr>
+                                <tr>
+                                   <td class="coltdleft">Tiêu đề:</td>
+                                   <td class="coltdright"><input class="textbox" type="text" name="title" id="title" maxlength="50" style="width:400px;" value=""><font color="red">(*)</font></td>
+                                </tr>
+                                <tr>
+                                   <td class="coltdleft" style="vertical-align:top;">Nội dung:</td>
+                                   <td class="coltdright" style="vertical-align:top;"><textarea name="content" id="content" wrap="hard" rows="10" cols="100" style="width:400px;"></textarea><font color="red">(*)</font></td>
+                                </tr>
+                                <tr>
+                                   <td class="coltdleft" style="vertical-align:top;">Mã bảo mật:</td>
+                                   <td class="coltdright" style="vertical-align:top;">								       
+                                      <img id="captcha_img" alt="captcha" src="images/captcha.php">
+                                      <img id="reload_button" onclick="fn_reload_captcha()" src="images/indicator_arrows_static.gif" title="Tạo mã khác">
+                                      <input name="captcha" type="text" id="captcha" maxlength="3">
+                                      <font color="red">(*)</font> Bắt buộc điền thông tin
+                                   </td>
+                                </tr>
+                                <tr>
+                                   <td></td>
+                                   <td style="padding-top: 24px;">
+                                      <a href="javascript: void(0);" style="text-decoration: none; float: left" onclick="document.getElementById('ContactForm').submit();">
+                                         <div class="button_red">
+                                            <div class="left">
+                                               <div class="right">
+                                                  <div class="center">Gửi liên hệ</div>
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </a>
+                                      &nbsp;&nbsp;
+                                      <a href="javascript: void(0);" style="text-decoration: none; float: left" onclick="document.getElementById('ContactForm').reset();">
+                                         <div class="button_gray">
+                                            <div class="left">
+                                               <div class="right">
+                                                  <div class="center">Nhập lại</div>
+                                               </div>
+                                            </div>
+                                         </div>
+                                      </a>
+                                   </td>
+                                </tr>
+                             </tbody>
+                          </table>
+                       </td>
+                    </tr>
+                 </tbody>
+              </table>
+           </div>
+        </div>
+    </div>
+</body>
+</html>
