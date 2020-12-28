@@ -1,0 +1,120 @@
+.container {
+    margin-top: 5%;
+}
+
+.content {
+    display: block;
+}
+
+.col-lg-4 a {
+    margin-left: 2%;
+    color: #888;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #f1f1f1;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 12px 13px;
+    text-decoration: none;
+    font-size: 14px;
+    border-bottom: 2px solid transparent;
+}
+
+.topnav a:hover {
+    border-bottom: 2px solid red;
+    color: red;
+}
+
+.topnav a.active {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.notify {
+    text-align: left;
+    color: #677C92;
+    padding-top: 1.5%;
+    padding-left: 2%;
+    padding-bottom: 0.25%;
+    background-color: #D9EDF7;
+    border-radius: 4px;
+}
+
+.ctn {
+    padding: 0;
+}
+
+.ctn_left {
+    float: left;
+
+}
+
+.ctn_right {
+    float: left;
+}
+
+.form_lg {
+    background: #f9f9f9;
+    border: 1px solid #d4d4d4;
+    box-shadow: -1px 1px #f2f2f2;
+    color: #888;
+    cursor: pointer;
+    padding: 3px 0px 0px 10px;
+    width: 100%;
+}
+
+.icon {
+    background-image: url(../images/list_icon.png);
+    display: inline;
+    height: 16px;
+    margin-right: 12px;
+    margin-top: 2px;
+    margin-bottom: 5px;
+    width: 16px;
+}
+
+.gg {
+    background-position: 0px 0px;
+}
+
+.fb {
+    background-position: -19px 0px;
+}
+
+.ya {
+    height: 18px;
+    width: 19px;
+    background-position: -79px 1px;
+}
+
+.imic {
+    background-position: -38px 0;
+}
+
+.form-group input {
+    margin-top: 10px;
+    margin-left: 2%;
+    width: 93%;
+}
+
+.form-group button {
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+.form-group a {
+    padding-top: 10px;
+    display: inline;
+    text-align: center;
+}
+
+.request a {
+    color: #31708f;
+}
