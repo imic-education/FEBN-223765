@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BÀI TẬP 02 - Đăng nhập hệ thống</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <style>
+      /* Style Body - Đổ màu và căn giữa toàn body */
+      body {
+        background-color: lightgray;
+        text-align: center;
+      }
+
+      /* Style Item 2 - Tạo style cho khung màu trắng */
+      .border {
+        background-color: white;
+        padding: 20px 30px 20px;
+        margin: 0% 34.5% auto;
+      }
+
+      /* Style Item 2.2 & 2.3 - Tạo style cho 2 ô inputs */
+      .form{
+        height: 33px;
+        width: 100%;
+        border-radius: 4px;
+        border: 1px solid lightgray;
+        padding-left: 12px;
+      }
+      .form:focus {
+        outline: none;
+        border: 1px solid rgba(81, 203, 238, 1);
+        box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+      }
+
+      /* Style Item 2.4.2 - Tạo style cho nút Đăng Nhập */
+      .button {
+        color: white;
+        background-color: blue;
+        border: none;
+        border-radius: 5px;
+      }
+      .button:hover {
+        background-color: darkblue;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <!-- 0. Create HEADER -->
+    <div style="padding: 45px"></div>
+
+    <!-- 1. Create Logo START -->
+    <div style="margin-bottom: 30px;">
+      <a href="#">
+        <img src="img/logoth.png" alt="logo">
+      </a>
+    </div>
+    <!-- 1. Create Logo END -->
+    
+    <!-- 2. Create Form đăng ký START-->
+    <div class="border">
+      <!-- 2.1. Create Note START-->
+      <p style="font-size: 16px; padding-bottom: 15px;">Đăng nhập vào hệ thống</p>
+      <!-- 2.1. Create Note END-->
+
+      <!-- 2.2. Create Form Nhập Tài Khoản START-->
+      <div style="margin-bottom: 15px;">
+        <form>
+            <input class="form" type="email" placeholder="Nhập tài khoản">
+        </form>
+          
+      </div>
+      <!-- 2.2. Create Form Nhập Tài Khoản END-->
+
+      <!-- 2.3. Create Form Nhập Mật Khẩu START-->
+      <div style="margin-bottom: 15px;">
+        <form>
+          <input class="form" type="password" placeholder="Nhập mật khẩu">
+          <!--<i class="glyphicon glyphicon-envelope" style="display: inline;"></i>-->
+        </form>
+      </div>
+      <!-- 2.3. Create Form Nhập Mật Khẩu END-->
+      
+      <!-- 2.4. Create Buttons START-->
+      <div class="container">
+        <div class="row">
+          <!-- 2.4.1. Button Ghi Nhớ START-->
+          <div style="padding-top: 10px;">
+            <form>
+              <input type="checkbox" name="note" checked>
+              <label for="note" style="font-size: 14px; font-weight: 500;">Ghi nhớ</label> 
+            </form>
+          </div>
+          <!-- 2.4.1. Button Ghi Nhớ END-->
+          <!-- 2.4.2. Button Đăng Nhập START-->
+          <div style="padding-left: 155px;">
+            <form>
+              <input class="button btn-lg" type="submit" value="Đăng nhập">
+            </form>
+          </div>
+          <!-- 2.4.2. Button Đăng Nhập END-->
+        </div>
+      </div>
+      <!-- 2.4. Create Buttons END-->
+    </div>
+    <!-- 2. Create Form đăng ký END-->
+    
+  </body>
+</html>

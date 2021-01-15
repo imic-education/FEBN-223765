@@ -1,9 +1,21 @@
+----**----
+06-01-2021:
+Hello,
+Please help me to review my works:
 
++ BaiTap01: Update styles for "2 inputs area"
+FEBN-223765\User\NGUYEN_THANH_LUAN\0.BAI_TAP\1.BOOTSTRAP\BAI TAP 01\0.luan\index01_luan.html
 
++ BaiTap02: Newly created
+FEBN-223765\User\NGUYEN_THANH_LUAN\0.BAI_TAP\1.BOOTSTRAP\BAI TAP 02\0.luan\index02_luan.html
+
+Thank you
+
+----**----
 29-12-2020:
 Hello,
 Please help me to review my excercise:
 
-FEBN-223765\User\NGUYEN_THANH_LUAN\0.BAI_TAP\1.BOOTSTRAP\BAI TAP 01\0.luan\index_luan.html
+FEBN-223765\User\NGUYEN_THANH_LUAN\0.BAI_TAP\1.BOOTSTRAP\BAI TAP 01\0.luan\index01_luan.html
 
 Thank you & have a nice day.
