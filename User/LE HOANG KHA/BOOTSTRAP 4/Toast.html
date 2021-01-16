@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Bootstrap Example</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
+
+        <script src="JS/jquery.min.js"></script>
+        <script src="JS/popper.min.js"></script>
+        <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+        
+    </head>
+
+    <body>
+
+        <div class="container">
+            <h3>Toast Example</h3>
+            <p>Omnis perspiciatis debitis laborum nemo incidunt eos numquam perferendis
+                dolores excepturi   voluptatum, eligendi dolore ipsum quo! Praesentium 
+                laudantium atque hic illo suscipit?</p>
+            <button type="button" class="btn btn-primary" id="myBtn">Xem thêm</button>
+            <div class="toast">
+                <div class="toast-header">Giới thiệu nhân sự</div>
+                <div class="toast-body">Văn phòng Trung ương Đảng cho biết,...</div>
+            </div>
+        </div>
+        
+        <script>
+            $(document).ready(function(){
+                $("#myBtn").click(function(){
+                    $(".toast").toast("show");
+                })
+            })
+        </script>
+
+    </body>
+</html>

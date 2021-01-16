@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Bootstrap Example</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.css">
+
+        <script src="JS/jquery.min.js"></script>
+        <script src="JS/popper.min.js"></script>
+        <script src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+        
+    </head>
+
+    <body>
+
+        <div class="container">
+            <h3>Giới thiệu nhân sự</h3>
+            <a href="#"
+                data-toggle="popover"
+                title="Giới thiệu nhân sự..."
+                data-content="Văn phòng Trung ương Đảng cho biết,...">
+            Giới thiệu nhân sự
+            </a>
+        <script>
+            $(document).ready(function(){
+                $('[data-toggle="popover"]').popover();
+            });
+        </script>
+            
+        </div>
+        
+    </body>
+</html>

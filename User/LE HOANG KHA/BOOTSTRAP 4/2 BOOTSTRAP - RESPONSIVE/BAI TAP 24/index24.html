@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Bài 24</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="../bootstrap-4.5.3-dist/css/bootstrap.css">
+
+        <script src="../JS/jquery.min.js"></script>
+        <script src="../JS/popper.min.js"></script>
+        <script src="../bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+        
+    </head>
+
+    <body>
+
+        <div class="container">
+            
+            <div style="margin-top: 50px;">
+                <h3><i>Đăng Kí Nhận Báo Giá</i></h3>
+            </div>
+            <div class="row" style="color: #7F7F7F;">
+
+                <div class="col-4">
+
+                    <div class="col border">
+
+                        <div style="margin-top: 10px;">
+                            <span style="background-color: #F4BC00; color: white; border-radius: 50%;">&nbsp;1&nbsp;</span> Chọn loại xe
+                        </div>
+                        <div>
+                            <img src="images/dummy_314_175.png">
+                        </div>
+                        <div>
+                            Vui lòng chọn loại xe bạn quan tâm
+                        </div>
+                        <div class="text-center">
+                            <select style="width: 100%; border-width: 1px; border-color: #ccc;
+                                border-style: solid; height: 30px; padding-left: 15px;">
+                                    <option>Chọn mẫu</option>
+                                    <option>Aveo</option>
+                                    <option>Captiva</option>
+                                    <option>Colorado</option>
+                                    <option>Cruze</option>
+                                    <option>Orlando</option>
+                                    <option>Spark</option>
+                                    <option>Spark Van</option>
+                            </select>
+                        </div>
+                        <div class="text-center" style="padding-top: 10px; padding-bottom: 10px;">
+                            <input type="text" placeholder="Tổng giá                             5000$" disabled
+                                style="padding-left: 15px; width: 100%; border-width: 1px; border-color: #ccc;
+                                border-style: solid; border-radius: 4px; height: 30px; background-color: #eee;
+                                cursor: not-allowed;">
+                        </div>
+                    </div>
+
+                    <div class="col border text-justify" style="margin-top: 15px;">
+                        Đại lý được bạn lựa chọn sẽ gửi cho bạn bảng báo giá tốt nhất cho chiếc xe này. Giá bán được nêu ở đây chưa bao gồm các phụ kiện, trang thiết bị cộng thêm, phí bảo hiểm và các loại phí khác được áp dụng khi mua xe.
+                    </div>
+
+                </div>
+
+                <div class="col-4">
+
+                    <div class="col border">
+                        <div style="margin-top: 10px;">
+                            <span style="background-color: #F4BC00; color: white; border-radius: 50%;">&nbsp;2&nbsp;</span> Chọn Đại Lý
+                        </div>
+                        <div style="margin-top: 10px;">
+                            Tìm kiếm đại lý theo 
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <img src="images/tick.jpg">
+                            <span>Thành phố/Tỉnh</span>
+                            <img src="images/tick.jpg" style="padding-left: 20px;">
+                            <span>Tên đại lý</span>
+                        </div>
+                        <div style="margin-top: 10px; padding-bottom: 20px;">
+                            <input type="text">
+                            <button style="border-width: 1px; border-color: black; border-style: solid;
+                            border-radius: 3px; height: 30px;">Tìm kiếm mới</button>
+                        </div>
+                    </div>
+
+                    <div class="col border" style="margin-top: 15px;">
+                        <div style="margin-top: 10px;">
+                            <span style="background-color: #F4BC00; color: white; border-radius: 50%;">&nbsp;3&nbsp;</span> Thông tin liên hệ của bạn
+                        </div>
+                        <table class="table table-borderless" style="font-size: 13px; margin-top: 10px;">
+                            <tr>
+                                <td colspan="2" style="padding-top: 0px;">(*) là thông tin bắt buộc</td>
+                            </tr>
+                            <tr>
+                                <td style="width: 42%; vertical-align: middle;">Danh xưng*</td>
+                                <td>
+                                    <select style="width: 100%; border-width: 1px; border-color: #ccc;
+                                        border-style: solid; border-radius: 4px; height: 35px; padding-left: 15px;">
+                                        <option hidden>-----</option>
+                                        <option>Anh</option>
+                                        <option>Chị</option>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: middle;">Họ*</td>
+                                <td>
+                                    <input type="text" style="width: 100%; border-width: 1px; border-color: #ccc;
+                                    border-style: solid; border-radius: 4px; height: 35px; padding-left: 15px;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: middle;">Tên*</td>
+                                <td>
+                                    <input type="text" style="width: 100%; border-width: 1px; border-color: #ccc;
+                                    border-style: solid; border-radius: 4px; height: 35px; padding-left: 15px;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: middle;">Địa chỉ Email*</td>
+                                <td>
+                                    <input type="email" style="width: 100%; border-width: 1px; border-color: #ccc;
+                                    border-style: solid; border-radius: 4px; height: 35px; padding-left: 15px;">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="vertical-align: middle;">Số điện thoại(+84)</td>
+                                <td style="padding-bottom: 0px;">
+                                    <input type="text" style="width: 100%; border-width: 1px; border-color: #ccc;
+                                    border-style: solid; border-radius: 4px; height: 35px; padding-left: 15px;">
+                                </td>
+                            </tr>
+                            
+                        </table>
+                    </div>
+
+                </div>
+                
+                <div class="col-4">
+
+                    <div class="col border">
+                        <div style="margin-top: 10px;">
+                            <span style="background-color: #F4BC00; color: white; border-radius: 50%;">&nbsp;4&nbsp;</span> Quy Định Pháp Lý
+                        </div>
+                        <div class="col text-justify" style="margin-top: 10px; margin-bottom: 10px;">
+                            <input class="form-check-input" type="checkbox">
+                            <label class="form-check-label">
+                                Tôi đồng ý để Chevrolet lưu trữ thông tin cá nhân cho mục đích tiếp thị, nghiên cứu thị trường, theo dõi doanh số và để liên lạc với tôi, Chevrolet cũng có thể tiết lộ thông tin này trong nội bộ tập đoàn (Tập Đòan General Motors) và các đại lý và đại diện bán hàng với mục đích trên. Thông tin chúng tôi thu thập từ bạn sẽ được chuyển, lưu và xử lý bởi nhân viên của chúng tôi hoặc của các đơn vị cung cấp dịch vụ bên ngoài Việt Nam. Chúng tôi sẽ làm tất cả những gì cần thiết để đảm bảo thông tin của bạn được xử lý đúng quy định an toàn và luật pháp hiện hành.
+                            </label>
+                        </div>
+                        <div style="padding-bottom: 20px;">
+                            <button style="border-width: 1px; border-color: #d43f3a; border-style: solid;
+                                border-radius: 4px; height: 35px; background-color: #F0AD00; color: white;
+                                width: 110px;">
+                                    Gửi yêu cầu
+                                </button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+    </body>
+</html>
