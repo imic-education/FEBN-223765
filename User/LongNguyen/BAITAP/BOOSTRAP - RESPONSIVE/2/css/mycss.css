@@ -25,5 +25,13 @@ body {
 .h4_tittle {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
-    padding: 15px
+    padding: 20px 15px 15px 15px;
+}
+
+.save_login {
+    text-align: left;
+}
+
+.btn_login {
+    text-align: right;
 }
