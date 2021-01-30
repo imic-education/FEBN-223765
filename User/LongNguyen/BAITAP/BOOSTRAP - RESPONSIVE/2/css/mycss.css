@@ -1,0 +1,37 @@
+body {
+    background-color: #D2D6DE;
+    text-align: center;
+}
+
+.form_login {
+    margin: 0 auto;
+    max-width: 400px;
+}
+
+.logo_img {
+    padding: 30px;
+    margin-top: 60px;
+}
+
+.form {
+    background-color: white;
+    height: 230px;
+}
+
+.inform {
+    margin-bottom: 20px;
+}
+
+.h4_tittle {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    padding: 20px 15px 15px 15px;
+}
+
+.save_login {
+    text-align: left;
+}
+
+.btn_login {
+    text-align: right;
+}
