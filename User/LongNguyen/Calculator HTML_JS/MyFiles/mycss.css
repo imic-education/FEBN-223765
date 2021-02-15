@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'digital';
+    src: url('digital.ttf');
+}
+
+body {
+    background-color: #DCDCDC;
+    max-height: 500px;
+}
+
+.container {
+    display: block;
+    margin: 70px auto 50px auto;
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.6);
+    border: 1.6px solid;
+}
+
+.form-group {
+    padding: 10px;
+}
+
+.form_calc {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1.5px;
+    border-style: solid;
+    text-align: right;
+}
+
+.form_calc p {
+    font-family: 'digital';
+}
+
+#st_value,
+#nd_value,
+#func_value {
+    font-size: large;
+    display: inline;
+}
+
+.num_text {
+    margin: 15px auto 15px auto;
+}
+
+.form_func {
+    margin-top: 10px;
+    height: 367px;
+    border: 1.5px;
+    border-style: solid;
+    max-height: 367px;
+    max-width: 340px;
+}
+
+.num_area {
+    float: left;
+    margin: auto;
+    width: 239.5px;
+    border-bottom: 1.5px solid;
+}
+
+.func_area {
+    float: right;
+    margin: auto;
+    height: 171px;
+    width: 26.2%;
+    border-left: 1.5px solid;
+    border-bottom: 1.5px solid;
+}
+
+button {
+    margin: 10px 10px 10px 10px;
+    width: 65px;
+}
+
+.num_area button {
+    margin: 10px 10px 10px 10px;
+    height: 22.7px;
+    width: 56.5px;
+}
+
+.num_area button.clear_btn {
+    width: 138px;
+}
+
+button.calc_btn {
+    width: 306.5px;
+}
+
+/* Hidden Items below */
+#tmpA,
+#tmpB,
+#func {
+    display: none;
+    margin-left: 10px;
+    max-width: 50px;
+}

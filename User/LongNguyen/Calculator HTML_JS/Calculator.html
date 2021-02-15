@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <!-- link -->
+    <link rel="stylesheet" href="./MyFiles/mycss.css">
+    <!-- script -->
+    <script src="./MyFiles/myjs.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="form-group">
+            <div class="form_calc">
+                <!-- Number Text start -->
+                <div class="num_text">
+                    <p id="st_value">00</p>
+                    <p id="func_value">?</p>
+                    <p id="nd_value">00</p>
+                </div>
+                <!-- Number Text end -->
+                <hr>
+                <!-- Result Text start -->
+                <p id="result_text">Result Text</p>
+                <!-- Result Text end -->
+            </div>
+            <div class="form_func">
+                <!-- Number Area start -->
+                <div class="num_area">
+                    <button onclick="btn_num_click(7), update_num_text()">7</button>
+                    <button onclick="btn_num_click(8), update_num_text()">8</button>
+                    <button onclick="btn_num_click(9), update_num_text()">9</button>
+                    <button onclick="btn_num_click(4), update_num_text()">4</button>
+                    <button onclick="btn_num_click(5), update_num_text()">5</button>
+                    <button onclick="btn_num_click(6), update_num_text()">6</button>
+                    <button onclick="btn_num_click(1), update_num_text()">1</button>
+                    <button onclick="btn_num_click(2), update_num_text()">2</button>
+                    <button onclick="btn_num_click(3), update_num_text()">3</button>
+                    <button onclick="btn_num_click(0), update_num_text()">0</button>
+                    <button id="clear_btn" class="clear_btn" onclick="clear_btn_click()">CLEAR</button>
+                </div>
+                <!-- Number Area end -->
+                <!--  -->
+                <!-- Function Area start -->
+                <div class="func_area">
+                    <button onclick="btn_func_click(this.innerHTML), update_num_text(), bool_number = 0">+</button>
+                    <button onclick="btn_func_click(this.innerHTML), update_num_text(), bool_number = 0">-</button>
+                    <button onclick="btn_func_click(this.innerHTML), update_num_text(), bool_number = 0">x</button>
+                    <button onclick="btn_func_click(this.innerHTML), update_num_text(), bool_number = 0">/</button>
+                </div>
+                <div>
+                    <button id="calc_btn" class="calc_btn" onclick="calc_btn_click(), bool_number = 1">RESULT</button>
+                </div>
+                <!-- Function Area end -->
+                <!--  -->
+                <!-- Temp Area start -->
+                <div class="tmp_area">
+                    <input type="number" id="tmpA" value="0">
+                    <p id="func">?</p>
+                    <input type="number" id="tmpB" value="0">
+                </div>
+                <!-- Temp Area end -->
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
