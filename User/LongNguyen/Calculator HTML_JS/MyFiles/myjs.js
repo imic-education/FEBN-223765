@@ -1,3 +1,4 @@
+//Check numberIndex
 var bool_number = 1;
 
 function btn_func_click(func) {
@@ -64,6 +65,37 @@ function calc_btn_click() {
         case "/": {
             result = valueA / valueB;
             document.getElementById('result_text').innerHTML = result;
+            break;
+        }
+    }
+}
+
+function nav_num(choice) {
+    switch (choice) {
+        case 1: {
+            if (bool_number)
+                bool_number = 0;
+            bool_number = 1;
+            break;
+        }
+        case 0: {
+            if (!bool_number)
+                bool_number = 1;
+            bool_number = 0;
+            break;
+        }
+    }
+}
+
+function num_Index() {
+    var show = document.getElementById('nav_num_text');
+    switch (bool_number) {
+        case 1: {
+            show.value = document.getElementById('st_value').innerHTML;
+            break;
+        }
+        case 0: {
+            show.value = document.getElementById('nd_value').innerHTML;
             break;
         }
     }

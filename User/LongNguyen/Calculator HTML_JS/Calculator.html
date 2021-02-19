@@ -12,7 +12,7 @@
     <script src="./MyFiles/myjs.js"></script>
 </head>
 
-<body>
+<body onload="num_Index()">
     <div class="container">
         <div class="form-group">
             <div class="form_calc">
@@ -28,35 +28,42 @@
                 <p id="result_text">Result Text</p>
                 <!-- Result Text end -->
             </div>
+
+            <div class="nav_num">
+                <button id="nav_num_prev" onclick="nav_num(1), num_Index()"><</button> 
+                <input type="text" id="nav_num_text" readonly>
+                <button id="nav_num_next" onclick="nav_num(0),num_Index()">></button>
+            </div>
             <div class="form_func">
-                <!-- Number Area start -->
-                <div class="num_area">
-                    <button onclick="btn_num_click(7), update_num_text()">7</button>
-                    <button onclick="btn_num_click(8), update_num_text()">8</button>
-                    <button onclick="btn_num_click(9), update_num_text()">9</button>
-                    <button onclick="btn_num_click(4), update_num_text()">4</button>
-                    <button onclick="btn_num_click(5), update_num_text()">5</button>
-                    <button onclick="btn_num_click(6), update_num_text()">6</button>
-                    <button onclick="btn_num_click(1), update_num_text()">1</button>
-                    <button onclick="btn_num_click(2), update_num_text()">2</button>
-                    <button onclick="btn_num_click(3), update_num_text()">3</button>
-                    <button onclick="btn_num_click(0), update_num_text()">0</button>
-                    <button id="clear_btn" class="clear_btn" onclick="clear_btn_click()">CLEAR</button>
+                <div class="btn_area">
+                    <!-- Number Area start -->
+                    <div class="num_area">
+                        <button onclick="btn_num_click(7), update_num_text(), num_Index()">7</button>
+                        <button onclick="btn_num_click(8), update_num_text(), num_Index()">8</button>
+                        <button onclick="btn_num_click(9), update_num_text(), num_Index()">9</button>
+                        <button onclick="btn_num_click(4), update_num_text(), num_Index()">4</button>
+                        <button onclick="btn_num_click(5), update_num_text(), num_Index()">5</button>
+                        <button onclick="btn_num_click(6), update_num_text(), num_Index()">6</button>
+                        <button onclick="btn_num_click(1), update_num_text(), num_Index()">1</button>
+                        <button onclick="btn_num_click(2), update_num_text(), num_Index()">2</button>
+                        <button onclick="btn_num_click(3), update_num_text(), num_Index()">3</button>
+                        <button onclick="btn_num_click(0), update_num_text(), num_Index()">0</button>
+                        <button id="clear_btn" class="clear_btn" onclick="clear_btn_click()">CLEAR</button>
+                    </div>
+                    <!-- Number Area end -->
+                    <!--  -->
+                    <!-- Function Area start -->
+                    <div class="func_area">
+                        <button onclick="btn_func_click(this.innerHTML), update_num_text(), bool_number = 0">+</button>
+                        <button onclick="btn_func_click(this.innerHTML), update_num_text(), bool_number = 0">-</button>
+                        <button onclick="btn_func_click(this.innerHTML), update_num_text(), bool_number = 0">x</button>
+                        <button onclick="btn_func_click(this.innerHTML), update_num_text(), bool_number = 0">/</button>
+                    </div>
+                    <!-- Function Area end -->
                 </div>
-                <!-- Number Area end -->
-                <!--  -->
-                <!-- Function Area start -->
-                <div class="func_area">
-                    <button onclick="btn_func_click(this.innerHTML), update_num_text(), bool_number = 0">+</button>
-                    <button onclick="btn_func_click(this.innerHTML), update_num_text(), bool_number = 0">-</button>
-                    <button onclick="btn_func_click(this.innerHTML), update_num_text(), bool_number = 0">x</button>
-                    <button onclick="btn_func_click(this.innerHTML), update_num_text(), bool_number = 0">/</button>
-                </div>
-                <div>
+                <div class="calc_result">
                     <button id="calc_btn" class="calc_btn" onclick="calc_btn_click(), bool_number = 1">RESULT</button>
                 </div>
-                <!-- Function Area end -->
-                <!--  -->
                 <!-- Temp Area start -->
                 <div class="tmp_area">
                     <input type="number" id="tmpA" value="0">
