@@ -1,0 +1,43 @@
+.row {
+    margin-top: 10px;
+}
+
+.nhan {
+    vertical-align: middle;
+}
+
+.nhap {
+    width: 80%;
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+    border-radius: 4px;
+    height: 35px;
+    padding-left: 15px;
+}
+
+.button {
+    border-width: 1px;
+    border-color: #d43f3a;
+    border-style: solid;
+    border-radius: 4px;
+    height: 35px;
+    background-color: #F0AD00;
+    color: white;
+    width: 110px;
+    
+}
+
+button:hover {
+    background-color: #d43f3a;
+}
+
+.select {
+    width: 80%;
+    border-width: 1px;
+    border-color: #ccc;
+    border-style: solid;
+    border-radius: 4px;
+    height: 35px;
+    padding-left: 15px;
+}

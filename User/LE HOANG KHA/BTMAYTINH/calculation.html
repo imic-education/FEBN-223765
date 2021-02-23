@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Calculation</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" type="text/css" href="stylecal.css"/>
+
+        <link rel="stylesheet" href="../bootstrap-4.5.3-dist/css/bootstrap.css">
+
+        <script src="../JS/jquery.min.js"></script>
+        <script src="../JS/popper.min.js"></script>
+        <script src="../bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+        
+        <div id="cal">
+            <h2>Calculator</h2>
+            <div>
+                <input id="a" type="text" disabled>
+                <input id="operator" type="text" disabled>
+                <input id="b" type="text" disabled>
+            </div>
+            <div>
+                <input id="equal" type="text" disabled>
+            </div>
+            <div id="key">
+                <button onclick="seven()">7</button>
+                <button onclick="eight()">8</button>
+                <button onclick="nine()">9</button>
+                <button onclick="div()">&#247</button>
+                <button onclick="four()">4</button>
+                <button onclick="five()">5</button>
+                <button onclick="six()">6</button>
+                <button onclick="mul()">&#215</button>
+                <button onclick="one()">1</button>
+                <button onclick="two()">2</button>
+                <button onclick="three()">3</button>
+                <button onclick="sub()">-</button>
+                <button onclick="window.location.reload()">C</button>
+                <button onclick="zero()">0</button>
+                <button onclick="equal()">=</button>
+                <button onclick="add()">+</button>
+            </div>
+        </div>
+        
+            
+        
+        
+        <script src="jscal.js"></script>
+    </body>
+</html>

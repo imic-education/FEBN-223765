@@ -1,0 +1,15 @@
+input {
+    width: 200px;
+    height: 30px;
+}
+
+
+
+#errora, #errorb {
+    color: red;
+    display: none;
+}
+
+#cal2 {
+    display: none;
+}

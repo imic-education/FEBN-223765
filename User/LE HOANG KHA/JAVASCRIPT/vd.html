@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>JavaScript Example</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <style>
+            .haha {
+                font-size: 30px;
+                color: aqua;
+            }
+            #hihi {
+                font-size: 30px;
+                color: brown;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        
+        <button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">Turn on the light</button>
+        
+        <img id='myImage' src="images/pic_bulboff.gif">
+        
+        <button onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'">Turn off the light</button>
+        
+        <p id="mytext">Hello world</p>
+        <button onclick="document.getElementById('mytext').style.fontSize='35px'">Resize</button>
+        
+        <p id="mytext2">JavaScript can hide HTML elements.</p>
+        <button onclick="document.getElementById('mytext2').style.display='none'">Hide text</button>
+
+        <p id="demo" style="display: none;">Hello JavaScript</p>
+        <p id="demo2">ha ha ha ha</p>
+        <p id="demo3">hi hi hi hi</p>
+        
+        <button onclick="document.getElementById('demo').style.display='block'">Show text</button>
+        <button onclick="document.getElementById('demo2').className='haha'">Haha</button>
+        <button onclick="document.getElementById('demo3').id='hihi'">Hihi</button>
+
+        <h2 id="jsbody">JavaScript in Body</h2>
+        <script>
+            document.getElementById('jsbody').innerHTML=":<";
+        </script>
+        
+    </body>
+</html>

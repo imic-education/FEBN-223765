@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>CSS Demo</title>
+
+        <style>
+            h1 {
+                color: red;     
+            }
+            /* bat ky dau */
+            [class*="te"] {
+                background-color: yellow;
+            }
+            a [target = "_blank"] {
+                background-color: yellow;
+            }
+            /* bat dau bang */
+            [class^="top"] {
+                background-color: yellow;
+            }
+            /* 1 chu doc lap */
+            [class|="top"] {
+                background-color: yellow;
+            }
+            [title~="yellow"] {
+
+            }
+            
+        </style>
+    </head>
+
+    <body>
+        <h1>Hello</h1>
+    </body>
+
+</html>
