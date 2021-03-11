@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h2{
+    float: left;
+    width: 300px;
+    text-align: left;
+}
+#cal {
+    width: 330px;
+}
+
+button {
+    width: 80px;
+    height: 80px;
+    border: none;
+    font-size: 25px;
+    float: left;
+}
+
+button:hover {
+    background-color: grey;
+}
+
+button::selection{
+    border-color: brown
+}
+
+input {
+    border-style: none;
+    background-color: aqua;
+    font-size: 25px;
+    float: left;
+}
+
+#equal {
+    width: 316px;
+    height: 70px;
+    text-align: right;
+    font-size: 50px;
+}
+
+#operator {
+    width: 316px;
+    height: 70px;
+    text-align: right;
+    font-size: 50px;
+}
