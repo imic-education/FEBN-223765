@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+#one {
+    background-color: aqua;
+    height: 120px;
+    width: 20%;
+}
+
+#two {
+    text-align: center;
+    background-color: brown;
+    height: 120px;
+    width: 80%;
+}
+
+#three {
+    background-color: chartreuse;
+    height: 410px;
+    width: 20%;
+}
+
+#four {
+    background-color: deeppink;
+    height: 410px;
+    width: 80%;
+}
+
+#five {
+    background-color: blue;
+    height: 120px;
+    width: 100%;
+}
+
+input {
+    border: solid 1px;
+    border-radius: 3px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+table {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td{
+    padding-top: 10px;
+}

@@ -1,0 +1,18 @@
+input {
+    border: solid 1px;
+    border-radius: 3px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+table {
+    background-color: aqua;
+    border-style: groove;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td{
+    padding-top: 10px;
+}

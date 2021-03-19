@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#background {
+    /* background-image: url(https://source.unsplash.com/collection/2272152/1024x768); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+
+#form {
+    text-align: center;
+    background-color: aqua;
+    height: 100%;
+    width: 30%;
+}
+
+#logo{
+    padding-top: 150px;
+}
+
+#user, #pass {
+    padding: 5px;
+}
+
+#usern {
+    background-image: url(images/account.jpg);
+    background-repeat: no-repeat;
+    padding-left: 15px;
+    background-size: 10px;
+    background-position: 3px;
+}
+
+#password {
+    background-image: url(images/lock.jpg);
+    background-repeat: no-repeat;
+    padding-left: 16px;
+    background-size: 10px;
+    background-position: 3px;
+    margin-left: 28px;
+}
+
+#show {
+    background-color: white;
+    border: none;
+    margin-left: 0px;
+    height: 25px;
+    border-radius: 3px;
+    border-style: solid;
+    border: 2px;
+}
+
+#show:hover {
+    background-color: gray;
+}
+
+input {
+    height: 25px;
+    border-radius: 3px;
+    border-style: solid;
+    border: 2px;
+}
