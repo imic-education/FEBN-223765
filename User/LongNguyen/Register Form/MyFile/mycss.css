@@ -66,7 +66,7 @@ form {
     max-width: 100%;
     border: 1px solid whitesmoke;
     border-radius: 10px;
-    margin: 8% 8% 0 8%;
+    margin: 6% 8% 0 8%;
 }
 
 .pwd-box {
@@ -128,7 +128,7 @@ i {
 }
 
 .nav-action {
-    margin: 7% 8% 0 8%;
+    margin: 5% 8% 7% 8%;
     display: flex;
 }
 
@@ -152,12 +152,21 @@ i {
 }
 
 .call_login {
+    margin: 0;
+    padding: 0;
     height: 10%;
     font-size: 0.9em;
 }
 
-.call_login,
 .call_login p {
-    margin: 0;
-    padding: 0;
+    margin-top: 1%;
+}
+
+.call_login a {
+    font-weight: bold;
+    color: orange;
+}
+
+.call_login a:hover {
+    color: purple;
 }
