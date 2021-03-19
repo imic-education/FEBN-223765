@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Practice</title>
+    <link rel="stylesheet" href="MyFile/mycss.css">
+    <link rel="stylesheet" href="MyFile/FontAwesome.Pro.5.15.2/css/all.css">
+    <script src="MyFile/myjs.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="banner-ads"></div>
+        <div class="form-login">
+            <h1 class="title">
+                REGISTER
+            </h1>
+            <form action="#">
+                <div class="content">
+                    <!-- Username Box input -->
+                    <div class="username-box">
+                        <i class="fal fa-user"></i>
+                        <input type="text" placeholder="Username">
+                        <div></div>
+                    </div>
+                    <!-- Username Box input end -->
+                    <!-- Password Box input -->
+                    <div class="pwd-box">
+                        <i class="fal fa-key"></i>
+                        <input id="password" type="password" placeholder="Password">
+                        <div class="show_hide_pwd" onclick="show_hide_pwd(-1, 0)">
+                            <div class="eye_symbol">
+                                <i class="fal fa-eye"></i>
+                            </div>
+                            <div class="eye_symbol">
+                                <i class="fal fa-eye-slash"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Password Box input end -->
+                    <!-- Confirm Password Box input -->
+                    <div class="confirm-pwd-box">
+                        <i class="fal fa-sync"></i>
+                        <input id="confirm-password" type="password" placeholder="Confirm your password">
+                        <div class="show_hide_pwd" onclick="show_hide_pwd(1, 1)">
+                            <div class="eye_symbol">
+                                <i class="fal fa-eye"></i>
+                            </div>
+                            <div class="eye_symbol">
+                                <i class="fal fa-eye-slash"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Confirm Password Box input end -->
+                    <div class="nav-action">
+                        <input id="chkbox_remember" type="checkbox" name="remember me"><span>Remember me</span>
+                        <button class="btn_register">Register</button>
+                    </div>
+                </div>
+                <div class="call_login">
+                    <p style="color: whitesmoke;">Already have an account? <a href="/">Sign in</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
