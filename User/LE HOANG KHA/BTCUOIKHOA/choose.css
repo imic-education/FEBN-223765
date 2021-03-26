@@ -1,0 +1,160 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Montserrat,sans-serif;
+}
+
+#menu {
+    background-color: #343c49;
+    height: 100%;
+    width: 18%;
+    color: #95a4b5;
+}
+
+#logo {
+    margin-top: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.arrow {
+    border: solid #95a4b5;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-left: 50px;
+  }
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.table {
+    margin-left: 5px;
+    margin-top: 20px;
+    color: #95a4b5;
+    font-size: 14px;
+}
+
+#body {
+    width: 82%;
+    height: 100%;
+}
+
+#header {
+    background-color: #64c5b1;
+    height: 10%;
+}
+
+input {
+    background-color: #4ebda6;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    color: white;
+    width: 170px;
+}
+
+::placeholder{
+    color: white;
+    font-size: 14px;
+}
+
+.input-group {
+    background-color: #4ebda6;
+    border-radius: 20px;
+}
+
+#bell{
+    background-image: url(images/bell.svg);
+    background-position: 733px 15px;
+    background-repeat: no-repeat;
+    padding-left: 744px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.badge-light {
+    background-color: #f06292;
+    color: white;
+    width: 20px;
+    height: 17px;
+}
+
+#content {
+    background-color:  #f1f1f1;
+    text-align: center;
+    margin-top: 1%;
+    height: 88.3%;
+    font-size: 14px;
+    padding-top: 10px;
+    color: #6b6b7e;
+    
+}
+
+#tbcontent {
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+}
+
+.top {
+    background-color: #4489e4;
+    color: white;
+    width: 250px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    border-radius: 5px 5px 0px 0px;
+    padding-top: 10px;
+}
+
+.bot {
+    padding-top: 5px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 0px 0px 5px 5px;
+    padding-bottom: 20px;
+}
+
+.button1 {
+    color: #31c861;
+    border-radius: 15px;
+    border: 2px solid #31c861;
+    width: 100px;
+    background-color: white;
+    height: 30px;
+}
+
+.button2 {
+    color: white;
+    border-radius: 15px;
+    border: 2px solid #31c861;
+    width: 100px;
+    background-color:  #31c861;
+    height: 30px;
+}
+
+.ribbon {
+    width: 48%;
+    position: sticky;
+    float: left;
+    color: white;
+  }
+  
+  .ribbon4 {
+    margin-top: -12px;
+    margin-left: 11px;
+    position: absolute;
+    padding: 0px 35px;
+    background: #34d2eb;
+    border-radius: 3px;
+  }

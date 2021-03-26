@@ -1,29 +1,30 @@
-function UserAction() {
-    var request = new XMLHttpRequest();
+$(document).ready(function () {
+  $('body').off('click', '#btn-1').on('click', '#btn-1', CallAPI);   
+  function CallAPI() {
+      var model = new Object();
+      model.PageIndex = 1;
+      model.PageSize = 8
+      
+      $.ajax({
+          type: 'get',
+          url: 'http://api.dev.imic.edu.vn/api/category/get-all',
+          dataType: 'json',       
 
-    request.open(
-      "GET",
-      "http://api.dev.imic.edu.vn/api/category/get-all",
-      true
-    );
-    request.onload = function () {
-      // Begin accessing JSON data here
-      var data = JSON.parse(this.response);
-
-      if (request.status >= 200 && request.status < 400) {
-        data.forEach((product) => {
-          console.log(product.categoryName);
-        });
-        console.log(data);
-      } else {
-        console.log("error");
-      }
-
-      document.getElementById("name").value = data.name;
-      document.getElementById("email").value = data.email;
-      document.getElementById("phone").value = data.phone;
-      document.getElementById("address").value = data.address;
-
-    };
-    request.send();
+          success: function (response) {
+            
+              var htmlStr = "";
+              response.map(function (item) {
+                  htmlStr += 
+                  `
+                  <tr>
+                      <td>${item.categoryId}</td>
+                  </tr>
+                  <tr>
+                      <td>${item.categoryName}</td>
+                  </tr>`
+              })
+              $('#table-content').html(htmlStr);
+          }
+      })
   }
+})

@@ -1,0 +1,280 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Montserrat,sans-serif;
+}
+
+#menu {
+    background-color: #343c49;
+    height: 100%;
+    width: 10%;
+    color: #95a4b5;
+}
+
+#logo {
+    margin-top: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.arrow {
+    border: solid #95a4b5;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 2px;
+    margin-left: 15px;
+  }
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.table-sm {
+    margin-left: 5px;
+    margin-top: 20px;
+    color: #95a4b5;
+    font-size: 11px;
+}
+
+#body {
+    width: 90%;
+    height: 100%;
+}
+
+#header {
+    background-color: #64c5b1;
+    height: 7%;
+}
+
+input {
+    background-color: #4ebda6;
+    border: none;
+    border-radius: 20px;
+    padding-left: 20px;
+    color: white;
+    width: 170px;
+}
+
+::placeholder{
+    color: white;
+    font-size: 14px;
+}
+
+.input-group {
+    background-color: #4ebda6;
+    border-radius: 20px;
+}
+
+#bell{
+    background-image: url(images/bell.svg);
+    background-position: 853px 15px;
+    background-repeat: no-repeat;
+    padding-left: 864px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.badge-light {
+    background-color: #f06292;
+    color: white;
+    width: 20px;
+    height: 17px;
+}
+
+#midder {
+    font-size: 12px;
+    height: 20px;
+    display: inline-flex;
+    color: #6b6b7e;
+}
+
+#bg {
+    background-image: url(images/bg-profile.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    background-size: cover;
+    background-position-y: center;
+}
+
+#content {
+    background-color: #f1f1f1;
+    height: 73%;
+    font-size: 13px;
+    color: #6b6b7e;
+    
+}
+
+#info {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+}
+
+#info2 {
+    display: block;
+    padding: 0px;
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+#btnedit {
+    background-color: #31c861;
+    color: white;
+    width: 80px;
+    height: 22px;
+    border: 1px solid #31c861;
+    margin-left: 925px;
+    font-size: 10px;
+}
+
+#content2 {
+    display: flex;
+    margin-top: 10px;
+    font-size: 6px;
+}
+
+#left {
+    display: block;
+    margin-left: 10px;
+}
+
+#personal {
+    background-color: white;
+    width: 400px;
+    height: 120px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+}
+
+.icon {
+    border: 1px solid #6b6b7e;
+    border-radius: 7px;
+}
+
+#mess {
+    margin-top: 10px;
+    padding-left: 5px;
+    background-color: white;
+    width: 400px;
+    height: 200px;
+    font-size: 7px;
+}
+
+.btnreply {
+    background-color: #56d07b;
+    color: white;
+    width: 30px;
+    height: 15px;
+    border: 1px solid #56d07b;
+    margin-left: 230px;
+}
+
+#right {
+    display: block;
+    margin-left: 10px;
+}
+
+#top {
+    display: flex;
+}
+
+#one {
+    background-color: white;
+    width: 260px;
+    height: 70px;
+    padding: 5px;
+    font-size: 8px;
+}
+
+#two {
+    background-color: white;
+    width: 260px;
+    height: 70px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 8px;
+}
+
+#three {
+    background-color: white;
+    width: 260px;
+    height: 70px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 8px;
+}
+
+#mid {
+    margin-top: 10px;
+    background-color: white;
+    width: 800px;
+    height: 150px;
+    padding: 10px;
+    font-size: 8px;
+}
+
+#bot {
+    margin-top: 10px;
+    background-color: white;
+    width: 800px;
+    height: 125px;
+    padding: 10px;
+    font-size: 8px;
+}
+
+.badge-lightblue {
+    background-color: #35d3eb;
+}
+
+.badge-green {
+    background-color: #32cf5e;
+}
+
+.badge-pink {
+    background-color: #ec6794;
+}
+
+.badge-purple {
+    background-color: #5553c9;
+}
+
+.ribbon {
+    width: 48%;
+    height: 50px;
+    position: relative;
+    float: left;
+    color: white;
+  }
+  
+  .ribbon4 {
+    margin-left: -12px;
+    position: absolute;
+    top: 15px;
+    padding: 4px 8px;
+    background: #4189e4;
+  }
+  .ribbon4:before, .ribbon4:after {
+    content: "";
+    position: absolute;
+  }
+  .ribbon4:before {
+    height: 0;
+    width: 0;
+    bottom: -6px;
+    left: 0;
+    border-top: 6px solid #4189e4;
+    border-left: 6px solid transparent;
+  }
