@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Project</title>
+
+    <link rel="stylesheet" href="MyFile/css/bootstrap.min.css">
+    <link rel="stylesheet" href="MyFile/css/custom.min.css">
+    <link rel="stylesheet" href="MyFile/icon/css/all.css">
+</head>
+
+<body>
+    <div id="container">
+        <!-- Top-navbar -->
+        <nav class="top-navbar sticky-top navbar-expand-lg">
+            <ul class="list-unstyled topnav-menu float-right mb-0">
+                <!-- Notifications Top-navbar-->
+                <li class="dropdown notification-list">
+                    <a class="nav-link dropdown-toggle" role="button" data-toggle="dropdown" href="#"
+                        aria-haspopup="false" aria-expanded="false">
+                        <i class="fas fa-bell"></i>
+                    </a>
+                </li>
+                <!-- User Top-navbar -->
+                <li class="dropdown notification-list">
+                    <a class="nav-link dropdown-toggle nav-user" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="false" aria-expanded="false">
+                        <img id="userPic" class="rounded-circle" src="#" alt="">
+                    </a>
+                </li>
+            </ul>
+            <!-- Logo Top-navbar -->
+            <div class="logo-box">
+                <a href="#" class="logo text-center">
+                    <span class="logo-lg">
+                        <img src="MyFile/images/logo-light.png" alt="" height="25">
+                    </span>
+                </a>
+            </div>
+            <!-- Search Box Top-navbar -->
+            <ul class="list-unstyled topnav-menu topnav-menu-left m-0">
+                <li>
+                    <a class="menuTop" role="button" href="#" aria-haspopup="false" aria-expanded="false">
+                        <i class="fas fa-bars"></i>
+                    </a>
+                </li>
+                <li>
+                    <form class="app-search">
+                        <div class="app-search-box">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder="Search...">
+                                <div class="input-group-append">
+                                    <button class="btn" type="submit">
+                                        <i class="fas fa-search"></i>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+        <!-- Top-navbar end -->
+        <div class="content-section">
+            <div class="left-side-menu">
+                <p>NAVIGATION</p>
+                <div class="component">
+                    <ul>
+                        <!-- item -->
+                        <li>
+                            <i class="far fa-desktop"></i>
+                            <a href="#">Dashboard</a>
+                            <div class="show">
+                                <i class="far fa-chevron-right"></i>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <i class="far fa-bullseye"></i>
+                            <a href="#">Admin UI</a>
+                            <div class="show">
+                                <i class="far fa-chevron-right"></i>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <i class="far fa-suitcase"></i>
+                            <a href="#">UI Kit</a>
+                            <div class="show">
+                                <i class="far fa-chevron-right"></i>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <i class="far fa-life-ring"></i>
+                            <a href="#">Tickets</a>
+                            <div class="show">
+                                <i class="far fa-chevron-right"></i>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <i class="far fa-cube"></i>
+                            <a href="#">Icons</a>
+                            <div class="show">
+                                <i class="far fa-chevron-right"></i>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <i class="far fa-signal-alt-3"></i>
+                            <a href="#">Graph</a>
+                            <div class="show">
+                                <i class="far fa-chevron-right"></i>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <i class="fal fa-envelope"></i>
+                            <a href="#">Email</a>
+                            <div class="show">
+                                <i class="far fa-chevron-right"></i>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <i class="far fa-clipboard-list-check"></i>
+                            <a href="#">Task Board</a>
+                            <div class="show">
+                                <i class="far fa-chevron-right"></i>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <i class="fas fa-bullseye"></i>
+                            <a href="#">Forms</a>
+                            <div class="show">
+                                <i class="far fa-chevron-right"></i>
+                            </div>
+                        </li>
+                        <!-- item -->
+                        <li>
+                            <i class="far fa-table"></i>
+                            <a href="#">Table</a>
+                            <div class="show">
+                                <i class="far fa-chevron-right"></i>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Left-side-menu end -->
+            <div class="content-box">
+                <div class="content">
+                    <div class="container-fluid">
+                        <!-- Page title -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb">
+                                            <li class="breadcrumb-item"><a href="#">Adminox</a></li>
+                                            <li class="breadcrumb-item"><a href="#">Extras</a></li>
+                                            <li class="breadcrumb-item active">Members</li>
+                                        </ol>
+                                    </div>
+                                    <h2 class="page-title">Members</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Function banners -->
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <div id="btn_addmem" class="btn btn-primary">
+                                    Add Member
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Member List -->
+                        <div class="row" id="member_card">
+                            <!-- member card -->
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                        specimen book. It has survived not only five centuries, but also the leap into
+                                        electronic typesetting, remaining essentially unchanged.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- member card -->
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                        specimen book. It has survived not only five centuries, but also the leap into
+                                        electronic typesetting, remaining essentially unchanged.
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- member card -->
+                            <div class="col-lg-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                        when an unknown printer took a galley of type and scrambled it to make a type
+                                        specimen book. It has survived not only five centuries, but also the leap into
+                                        electronic typesetting, remaining essentially unchanged.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Member List end -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
