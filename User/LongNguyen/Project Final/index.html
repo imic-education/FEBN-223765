@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="MyFile/css/bootstrap.min.css">
     <link rel="stylesheet" href="MyFile/css/custom.min.css">
     <link rel="stylesheet" href="MyFile/icon/css/all.css">
+
+    <script src="MyFile/js/jquery-3.5.1.min.js"></script>
+    <script src="MyFile/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -174,7 +177,8 @@
                         <!-- Function banners -->
                         <div class="row">
                             <div class="col-sm-4">
-                                <div id="btn_addmem" class="btn btn-primary">
+                                <div id="btn_addmem" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#modal_addmem">
                                     Add Member
                                 </div>
                             </div>
@@ -183,43 +187,218 @@
                         <div class="row" id="member_card">
                             <!-- member card -->
                             <div class="col-lg-4">
-                                <div class="card">
+                                <div class="card text-center">
+                                    <div class="card-header">
+                                        <i class="fad fa-ellipsis-h"></i>
+                                    </div>
                                     <div class="card-body">
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                        when an unknown printer took a galley of type and scrambled it to make a type
-                                        specimen book. It has survived not only five centuries, but also the leap into
-                                        electronic typesetting, remaining essentially unchanged.
+                                        <div class="intro">
+                                            <div class="avt_member">
+                                                <img id="avtMember" class="rounded-circle" src="#" alt="">
+                                            </div>
+                                            <h4 class="nameMember">
+                                                Julie L. Arsenault
+                                            </h4>
+                                            <p class="role">
+                                                @Founder | <a href="#">websitename.com</a>
+                                            </p>
+                                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the
+                                                1500s,
+                                                when an unknown printer took a galley of type and scrambled it to make a
+                                                type
+                                                specimen book. It has survived not only five centuries, but also the
+                                                leap into
+                                                electronic typesetting, remaining essentially unchanged.</p>
+                                        </div>
+                                        <div class="social">
+                                            <span class="rounded-circle">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </span>
+                                            <span class="rounded-circle">
+                                                <i class="fab fa-twitter"></i>
+                                            </span>
+                                            <span class="rounded-circle">
+                                                <i class="fab fa-skype"></i>
+                                            </span>
+                                        </div>
+                                        <button type="button" class="btn btn-outline-primary mt-3">Follow</button>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="life_time col-4">
+                                            <h5>2563</h5>
+                                            <p>Lifetime total sales</p>
+                                        </div>
+                                        <div class="income col-4">
+                                            <h5>6952</h5>
+                                            <p>Income amounts</p>
+                                        </div>
+                                        <div class="total_visits col-4">
+                                            <h5>1125</h5>
+                                            <p>Total visits</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- member card -->
                             <div class="col-lg-4">
-                                <div class="card">
+                                <div class="card text-center">
+                                    <div class="card-header">
+                                        <i class="fad fa-ellipsis-h"></i>
+                                    </div>
                                     <div class="card-body">
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                        when an unknown printer took a galley of type and scrambled it to make a type
-                                        specimen book. It has survived not only five centuries, but also the leap into
-                                        electronic typesetting, remaining essentially unchanged.
+                                        <div class="intro">
+                                            <div class="avt_member">
+                                                <img id="avtMember" class="rounded-circle" src="#" alt="">
+                                            </div>
+                                            <h4 class="nameMember">
+                                                Freddie J. Plourde
+                                            </h4>
+                                            <p class="role">
+                                                @Programmer | <a href="#">websitename.com</a>
+                                            </p>
+                                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the
+                                                1500s,
+                                                when an unknown printer took a galley of type and scrambled it to make a
+                                                type
+                                                specimen book. It has survived not only five centuries, but also the
+                                                leap into
+                                                electronic typesetting, remaining essentially unchanged.</p>
+                                        </div>
+                                        <div class="social">
+                                            <span class="rounded-circle">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </span>
+                                            <span class="rounded-circle">
+                                                <i class="fab fa-twitter"></i>
+                                            </span>
+                                            <span class="rounded-circle">
+                                                <i class="fab fa-skype"></i>
+                                            </span>
+                                        </div>
+                                        <button type="button" class="btn btn-outline-primary mt-3">Follow</button>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="life_time col-4">
+                                            <h5>2563</h5>
+                                            <p>Lifetime total sales</p>
+                                        </div>
+                                        <div class="income col-4">
+                                            <h5>6952</h5>
+                                            <p>Income amounts</p>
+                                        </div>
+                                        <div class="total_visits col-4">
+                                            <h5>1125</h5>
+                                            <p>Total visits</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                             <!-- member card -->
                             <div class="col-lg-4">
-                                <div class="card">
+                                <div class="card text-center">
+                                    <div class="card-header">
+                                        <i class="fad fa-ellipsis-h"></i>
+                                    </div>
                                     <div class="card-body">
-                                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                        when an unknown printer took a galley of type and scrambled it to make a type
-                                        specimen book. It has survived not only five centuries, but also the leap into
-                                        electronic typesetting, remaining essentially unchanged.
+                                        <div class="intro">
+                                            <div class="avt_member">
+                                                <img id="avtMember" class="rounded-circle" src="#" alt="">
+                                            </div>
+                                            <h4 class="nameMember">
+                                                Christopher Gallardo
+                                            </h4>
+                                            <p class="role">
+                                                @Webdesigner | <a href="#">websitename.com</a>
+                                            </p>
+                                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the
+                                                1500s,
+                                                when an unknown printer took a galley of type and scrambled it to make a
+                                                type
+                                                specimen book. It has survived not only five centuries, but also the
+                                                leap into
+                                                electronic typesetting, remaining essentially unchanged.</p>
+                                        </div>
+                                        <div class="social">
+                                            <span class="rounded-circle">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </span>
+                                            <span class="rounded-circle">
+                                                <i class="fab fa-twitter"></i>
+                                            </span>
+                                            <span class="rounded-circle">
+                                                <i class="fab fa-skype"></i>
+                                            </span>
+                                        </div>
+                                        <button type="button" class="btn btn-outline-primary mt-3">Follow</button>
+                                    </div>
+                                    <div class="card-footer">
+                                        <div class="life_time col-4">
+                                            <h5>2563</h5>
+                                            <p>Lifetime total sales</p>
+                                        </div>
+                                        <div class="income col-4">
+                                            <h5>6952</h5>
+                                            <p>Income amounts</p>
+                                        </div>
+                                        <div class="total_visits col-4">
+                                            <h5>1125</h5>
+                                            <p>Total visits</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- Member List end -->
                     </div>
+                </div>
+                <!-- Member List end -->
+            </div>
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="modal_addmem" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="ModalLabel">Add Members</h4>
+                        <button type="button" class="close" aria-label="Close" data-dismiss="modal">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <!-- Modal-header end -->
+                    <div class="modal-body">
+                        <form class="form">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter name">
+                            </div>
+                            <div class="form-group">
+                                <label for="position">Position</label>
+                                <input type="text" class="form-control" id="position" placeholder="Enter position">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <input type="text" class="form-control" id="company" placeholder="Enter company">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Enter email">
+                            </div>
+                        </form>
+                    </div>
+                    <!-- Modal-body end -->
+                    <div class="modal-footer">
+                        <button type="submit" class="btn btn-secondary">Save</button>
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cancel</button>
+                    </div>
+                    <!-- Modal-footer end -->
                 </div>
             </div>
         </div>
+        <!-- Modal end -->
+    </div>
+    <!-- Content end -->
+    </div>
     </div>
 </body>
 
