@@ -14,9 +14,9 @@ body {
 
 #menu {
     background-color: #343c49;
-    height: 100%;
-    width: 18%;
+    width: 250px;
     color: #95a4b5;
+    height: 650px;
 }
 
 #logo {
@@ -45,14 +45,8 @@ body {
     font-size: 14px;
 }
 
-#body {
-    width: 82%;
-    height: 100%;
-}
-
 #header {
     background-color: #64c5b1;
-    height: 10%;
 }
 
 input {
@@ -72,14 +66,15 @@ input {
 .input-group {
     background-color: #4ebda6;
     border-radius: 20px;
+    display: flex;
+    width: 230px;
 }
 
 #bell{
     background-image: url(images/bell.svg);
-    background-position: 733px 15px;
+    background-position: 723px 15px;
     background-repeat: no-repeat;
-    padding-left: 744px;
-    padding-right: 20px;
+    padding-left: 734px;
     padding-bottom: 20px;
 }
 
@@ -93,18 +88,19 @@ input {
 #content {
     background-color:  #f1f1f1;
     text-align: center;
-    margin-top: 1%;
-    height: 88.3%;
     font-size: 14px;
     padding-top: 10px;
     color: #6b6b7e;
-    
+    margin-top: 10px;
+    width: 1120px;
+    height: 590px;
 }
 
 #tbcontent {
     justify-content: center;
     align-items: center;
     margin-left: 130px;
+    padding-right: 170px;
 }
 
 .top {
